@@ -1,0 +1,6199 @@
+{
+  "label": "Synthetic oracle-calibrated channels, not observed watermark performance on 50-token text",
+  "one_channel_nonidentification": {
+    "q1": 0.2575,
+    "rho_times_theta": 0.25,
+    "compatible_rho_interval": [
+      0.25,
+      1
+    ],
+    "examples_rho_theta": [
+      [
+        0.25,
+        1
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        1,
+        0.25
+      ]
+    ],
+    "interpretation": "Even infinitely many first-channel queries cannot distinguish these parameter pairs"
+  },
+  "two_channel_inverse": {
+    "a": "(q1-f)/(1-f)",
+    "b": "(q2-f)/(1-f)",
+    "theta": "b/a",
+    "rho": "a*a/b",
+    "jacobian_determinant": "(1-f)^2*rho*theta^2",
+    "singularities": "rho=0 or theta=0"
+  },
+  "selection": [
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0005,
+      "precision_mc95": [
+        1.2658823868557889e-05,
+        0.0027826398346589465
+      ],
+      "mean_interval_width": 0.996419486560533,
+      "median_interval_width": 1.0,
+      "p95_interval_width": 1.0,
+      "empty_set_fallbacks": 12,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 0.997,
+      "coverage_mc95": [
+        0.9934817813900255,
+        0.9988982817749746
+      ],
+      "precision_probability": 0.0005,
+      "precision_mc95": [
+        1.2658823868557889e-05,
+        0.0027826398346589465
+      ],
+      "mean_interval_width": 0.992584092559953,
+      "median_interval_width": 1.0,
+      "p95_interval_width": 1.0,
+      "empty_set_fallbacks": 15,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 0.996,
+      "coverage_mc95": [
+        0.9921336961714626,
+        0.9982715504265238
+      ],
+      "precision_probability": 0.0005,
+      "precision_mc95": [
+        1.2658823868557889e-05,
+        0.0027826398346589465
+      ],
+      "mean_interval_width": 0.9850078003040604,
+      "median_interval_width": 0.9987539350626449,
+      "p95_interval_width": 1.0,
+      "empty_set_fallbacks": 15,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 0.994,
+      "coverage_mc95": [
+        0.9895426861782051,
+        0.9968959837176227
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.9814029089723959,
+      "median_interval_width": 0.997478219034161,
+      "p95_interval_width": 0.9994933924786507,
+      "empty_set_fallbacks": 14,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.995,
+      "coverage_mc95": [
+        0.9908241049299802,
+        0.9975997802443343
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.9750858111582665,
+      "median_interval_width": 0.9948100100497811,
+      "p95_interval_width": 0.9981050065200145,
+      "empty_set_fallbacks": 11,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 0.993,
+      "coverage_mc95": [
+        0.9882830542294679,
+        0.9961679060996261
+      ],
+      "precision_probability": 0.0005,
+      "precision_mc95": [
+        1.2658823868557889e-05,
+        0.0027826398346589465
+      ],
+      "mean_interval_width": 0.9613332330234834,
+      "median_interval_width": 0.9884195556543179,
+      "p95_interval_width": 0.9941145588781215,
+      "empty_set_fallbacks": 3,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 0.99,
+      "coverage_mc95": [
+        0.98459787421644,
+        0.9938813424572566
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.9408391559135557,
+      "median_interval_width": 0.9815250364809519,
+      "p95_interval_width": 0.9893731846766658,
+      "empty_set_fallbacks": 2,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 0.9915,
+      "coverage_mc95": [
+        0.9864254538002681,
+        0.9950408649782188
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.9031182008354478,
+      "median_interval_width": 0.9724804622481733,
+      "p95_interval_width": 0.9819679417717655,
+      "empty_set_fallbacks": 2,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.9885,
+      "coverage_mc95": [
+        0.9827940518936594,
+        0.9926964059578242
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.8168267938411441,
+      "median_interval_width": 0.9554523512101782,
+      "p95_interval_width": 0.9686290942816708,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 0.986,
+      "coverage_mc95": [
+        0.9798292487682052,
+        0.9906774799112164
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.6509503750923004,
+      "median_interval_width": 0.9224834128283803,
+      "p95_interval_width": 0.953387707584979,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 0.984,
+      "coverage_mc95": [
+        0.9774872880441305,
+        0.9890309386557792
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.3816661474682752,
+      "median_interval_width": 0.24697796401536748,
+      "p95_interval_width": 0.9304547939580478,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 0.9835,
+      "coverage_mc95": [
+        0.9769053016761622,
+        0.9886156416197649
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.1337917149499215,
+      "median_interval_width": 0.1093967633586276,
+      "p95_interval_width": 0.27160925090620186,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 0.9885,
+      "coverage_mc95": [
+        0.9827940518936594,
+        0.9926964059578242
+      ],
+      "precision_probability": 0.005,
+      "precision_mc95": [
+        0.002400219755665772,
+        0.009175895070019778
+      ],
+      "mean_interval_width": 0.07487408099003173,
+      "median_interval_width": 0.0708130936247581,
+      "p95_interval_width": 0.1149690100927214,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 0.9865,
+      "coverage_mc95": [
+        0.9804185964352804,
+        0.9910850720055737
+      ],
+      "precision_probability": 0.1525,
+      "precision_mc95": [
+        0.1370124261285761,
+        0.16901359289222076
+      ],
+      "mean_interval_width": 0.048719095678552635,
+      "median_interval_width": 0.04736826995486622,
+      "p95_interval_width": 0.06537480625405516,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 0.9885,
+      "coverage_mc95": [
+        0.9827940518936594,
+        0.9926964059578242
+      ],
+      "precision_probability": 0.993,
+      "precision_mc95": [
+        0.9882830542294679,
+        0.9961679060996261
+      ],
+      "mean_interval_width": 0.029760981720803818,
+      "median_interval_width": 0.029448685480672275,
+      "p95_interval_width": 0.03545253262104372,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 0.985,
+      "coverage_mc95": [
+        0.9786553324889212,
+        0.9898572817087236
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.020665641564472564,
+      "median_interval_width": 0.020555995418780795,
+      "p95_interval_width": 0.023459668553058786,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.9161756173640954,
+      "median_interval_width": 0.9853086959958945,
+      "p95_interval_width": 0.9939349675008025,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.7933812153430757,
+      "median_interval_width": 0.9658690051280978,
+      "p95_interval_width": 0.9877979746095052,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.47006096358501454,
+      "median_interval_width": 0.3588427396327209,
+      "p95_interval_width": 0.9581690318544516,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.2311315684799408,
+      "median_interval_width": 0.20135742715041446,
+      "p95_interval_width": 0.4467282530615905,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.13174454848604666,
+      "median_interval_width": 0.12461343222164431,
+      "p95_interval_width": 0.2013620028454374,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.07542437612916768,
+      "median_interval_width": 0.07399251811575819,
+      "p95_interval_width": 0.09619594067137631,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.008,
+      "precision_mc95": [
+        0.004579404661398549,
+        0.01295906858847171
+      ],
+      "mean_interval_width": 0.05162307242178025,
+      "median_interval_width": 0.0512673688789385,
+      "p95_interval_width": 0.06132648927489199,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 0.9245,
+      "precision_mc95": [
+        0.9120377387059779,
+        0.9356997833835491
+      ],
+      "mean_interval_width": 0.035985171908315294,
+      "median_interval_width": 0.03584509795042891,
+      "p95_interval_width": 0.040607252643356254,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.02248969000625642,
+      "median_interval_width": 0.022448212251924657,
+      "p95_interval_width": 0.024234051080960856,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.015862504594013917,
+      "median_interval_width": 0.015846822145246964,
+      "p95_interval_width": 0.016670876331772194,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 0.9975,
+      "coverage_mc95": [
+        0.9941755546654815,
+        0.9991877740248061
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.011178116486620376,
+      "median_interval_width": 0.011167979816207693,
+      "p95_interval_width": 0.011604040012479175,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.007059789345171431,
+      "median_interval_width": 0.007057468355717425,
+      "p95_interval_width": 0.007230341936132756,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.004991842465349449,
+      "median_interval_width": 0.004991941815601336,
+      "p95_interval_width": 0.005077296153888397,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0035293880084802166,
+      "median_interval_width": 0.0035296468674699474,
+      "p95_interval_width": 0.0035697441131222626,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 0.9975,
+      "coverage_mc95": [
+        0.9941755546654815,
+        0.9991877740248061
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.002231633491831665,
+      "median_interval_width": 0.00223149866481389,
+      "p95_interval_width": 0.0022491893721009607,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0015779566923280952,
+      "median_interval_width": 0.0015779843539324503,
+      "p95_interval_width": 0.0015864143727427637,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.3850715572070479,
+      "median_interval_width": 0.33957004249443457,
+      "p95_interval_width": 0.79797045487545,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.21173179455803304,
+      "median_interval_width": 0.20148017740482577,
+      "p95_interval_width": 0.32703024297162675,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.11748285496739114,
+      "median_interval_width": 0.11516359082608771,
+      "p95_interval_width": 0.15022723520349296,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.07957719380239425,
+      "median_interval_width": 0.07930959248421195,
+      "p95_interval_width": 0.09415652197131641,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.05525728135293484,
+      "median_interval_width": 0.054944191888910754,
+      "p95_interval_width": 0.0626153396597374,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.9995,
+      "precision_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "mean_interval_width": 0.034445159042192364,
+      "median_interval_width": 0.03441130563309782,
+      "p95_interval_width": 0.03732969418689711,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.024214629075493113,
+      "median_interval_width": 0.02420015470321015,
+      "p95_interval_width": 0.02559414625873189,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.01707858295932882,
+      "median_interval_width": 0.017070552040029406,
+      "p95_interval_width": 0.017762755406143034,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.010764347539338201,
+      "median_interval_width": 0.010762678133311547,
+      "p95_interval_width": 0.011054370608376723,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0076148386605061945,
+      "median_interval_width": 0.0076135618158032145,
+      "p95_interval_width": 0.007753817916102146,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.005381663984173402,
+      "median_interval_width": 0.005381495781262846,
+      "p95_interval_width": 0.005448005025352249,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.003401752223921151,
+      "median_interval_width": 0.00340213959482525,
+      "p95_interval_width": 0.0034281511948819274,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.002404850960861424,
+      "median_interval_width": 0.002404784514222248,
+      "p95_interval_width": 0.0024178210739432653,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0017002661003312682,
+      "median_interval_width": 0.0017003070119115116,
+      "p95_interval_width": 0.0017073026074398098,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0010751787604847806,
+      "median_interval_width": 0.001075134951004461,
+      "p95_interval_width": 0.0010778307057186444,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0007602666821203039,
+      "median_interval_width": 0.0007602975635875794,
+      "p95_interval_width": 0.000761538997241254,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.1857020448587261,
+      "median_interval_width": 0.1804127810997013,
+      "p95_interval_width": 0.2650089569235878,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.12343218249332515,
+      "median_interval_width": 0.12209890721109155,
+      "p95_interval_width": 0.159147377964949,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.07793469288305235,
+      "median_interval_width": 0.07827565476756435,
+      "p95_interval_width": 0.08945153426404003,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.05470289781479318,
+      "median_interval_width": 0.05462577257296962,
+      "p95_interval_width": 0.06000156247273644,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.881,
+      "precision_mc95": [
+        0.8659984646662365,
+        0.894874097838449
+      ],
+      "mean_interval_width": 0.03826784359665291,
+      "median_interval_width": 0.03827521325131867,
+      "p95_interval_width": 0.040769567254420644,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.02405501531962794,
+      "median_interval_width": 0.024049706767170845,
+      "p95_interval_width": 0.02506483618174771,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.016980266538867462,
+      "median_interval_width": 0.01697732708191916,
+      "p95_interval_width": 0.01750382532393475,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.011989206272870862,
+      "median_interval_width": 0.011982993044003284,
+      "p95_interval_width": 0.012244314807072533,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.007573773079013156,
+      "median_interval_width": 0.00757412212644714,
+      "p95_interval_width": 0.00767174946407474,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.005353436815405347,
+      "median_interval_width": 0.0053530854727403265,
+      "p95_interval_width": 0.005404038542498832,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0037842896573121805,
+      "median_interval_width": 0.0037841284916013337,
+      "p95_interval_width": 0.003809544380732949,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.002392649463434722,
+      "median_interval_width": 0.0023927004947864247,
+      "p95_interval_width": 0.0024021890720664026,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0016916653481897732,
+      "median_interval_width": 0.0016916813343002476,
+      "p95_interval_width": 0.0016965857964079873,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.001196144488436293,
+      "median_interval_width": 0.0011960927077167838,
+      "p95_interval_width": 0.0011986619698551013,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0007564519884483822,
+      "median_interval_width": 0.0007564361911408177,
+      "p95_interval_width": 0.0007574264707153327,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.000534852527305215,
+      "median_interval_width": 0.0005348563193185718,
+      "p95_interval_width": 0.000535349948752669,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.9750114817023314,
+      "median_interval_width": 0.9837557847577733,
+      "p95_interval_width": 0.9947259553299598,
+      "empty_set_fallbacks": 11,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 0.9955,
+      "coverage_mc95": [
+        0.9914748587590049,
+        0.9979403114715096
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.9517589217826448,
+      "median_interval_width": 0.9644311193040412,
+      "p95_interval_width": 0.9866768669583276,
+      "empty_set_fallbacks": 8,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 0.9955,
+      "coverage_mc95": [
+        0.9914748587590049,
+        0.9979403114715096
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.9086175286838075,
+      "median_interval_width": 0.924234258037671,
+      "p95_interval_width": 0.9605885043784076,
+      "empty_set_fallbacks": 9,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 0.9915,
+      "coverage_mc95": [
+        0.9864254538002681,
+        0.9950408649782188
+      ],
+      "precision_probability": 0.0005,
+      "precision_mc95": [
+        1.2658823868557889e-05,
+        0.0027826398346589465
+      ],
+      "mean_interval_width": 0.8626449853863307,
+      "median_interval_width": 0.8834465651160914,
+      "p95_interval_width": 0.927666298610559,
+      "empty_set_fallbacks": 3,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.995,
+      "coverage_mc95": [
+        0.9908241049299802,
+        0.9975997802443343
+      ],
+      "precision_probability": 0.0005,
+      "precision_mc95": [
+        1.2658823868557889e-05,
+        0.0027826398346589465
+      ],
+      "mean_interval_width": 0.814472195395851,
+      "median_interval_width": 0.8334808148696004,
+      "p95_interval_width": 0.884542822080957,
+      "empty_set_fallbacks": 3,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 0.9915,
+      "coverage_mc95": [
+        0.9864254538002681,
+        0.9950408649782188
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.7309288804517742,
+      "median_interval_width": 0.758124333424488,
+      "p95_interval_width": 0.813995543934757,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 0.9865,
+      "coverage_mc95": [
+        0.9804185964352804,
+        0.9910850720055737
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.6534900727631291,
+      "median_interval_width": 0.6888116516880625,
+      "p95_interval_width": 0.7437505127150045,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 0.9935,
+      "coverage_mc95": [
+        0.9889104507283436,
+        0.9965346187913324
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.5489013381996304,
+      "median_interval_width": 0.5775908443756915,
+      "p95_interval_width": 0.6627187741886734,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.9915,
+      "coverage_mc95": [
+        0.9864254538002681,
+        0.9950408649782188
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.3521316049824194,
+      "median_interval_width": 0.34068851975529624,
+      "p95_interval_width": 0.5167679969264674,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 0.9935,
+      "coverage_mc95": [
+        0.9889104507283436,
+        0.9965346187913324
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.23726427833505584,
+      "median_interval_width": 0.23302354611051926,
+      "p95_interval_width": 0.31010908430327855,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 0.9925,
+      "coverage_mc95": [
+        0.9876600162642141,
+        0.9957964082431108
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.1632794337089014,
+      "median_interval_width": 0.16153300329184364,
+      "p95_interval_width": 0.1955199833809395,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 0.9885,
+      "coverage_mc95": [
+        0.9827940518936594,
+        0.9926964059578242
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.10126165671829696,
+      "median_interval_width": 0.1007816672655786,
+      "p95_interval_width": 0.11328856909741683,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 0.9935,
+      "coverage_mc95": [
+        0.9889104507283436,
+        0.9965346187913324
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.07122262258289361,
+      "median_interval_width": 0.07114423527142524,
+      "p95_interval_width": 0.07717268087174445,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 0.9925,
+      "coverage_mc95": [
+        0.9876600162642141,
+        0.9957964082431108
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.05019335017875008,
+      "median_interval_width": 0.05017237534952701,
+      "p95_interval_width": 0.053024472704557464,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 0.992,
+      "coverage_mc95": [
+        0.9870409314115283,
+        0.9954205953386015
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.03173537380176817,
+      "median_interval_width": 0.031713016459460175,
+      "p95_interval_width": 0.032951369443106435,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 0.992,
+      "coverage_mc95": [
+        0.9870409314115283,
+        0.9954205953386015
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.022421633534415793,
+      "median_interval_width": 0.022421148658147233,
+      "p95_interval_width": 0.023015677657093926,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.7460363371994259,
+      "median_interval_width": 0.7620666372713916,
+      "p95_interval_width": 0.8211307130696147,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.6207517491437384,
+      "median_interval_width": 0.64040912450147,
+      "p95_interval_width": 0.7123827112830914,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.4002427641673012,
+      "median_interval_width": 0.3942512869622041,
+      "p95_interval_width": 0.5017391830305415,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.2763301093779284,
+      "median_interval_width": 0.2741835491386063,
+      "p95_interval_width": 0.3242226692575865,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.19235812071375835,
+      "median_interval_width": 0.19185099752814222,
+      "p95_interval_width": 0.2151656498308975,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.12042764078295994,
+      "median_interval_width": 0.12024337888480627,
+      "p95_interval_width": 0.12932303395440664,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.08480830887203993,
+      "median_interval_width": 0.08477526217102904,
+      "p95_interval_width": 0.08905382063539148,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.059823497237969765,
+      "median_interval_width": 0.059821849460487214,
+      "p95_interval_width": 0.0619339702638307,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.037811600886160326,
+      "median_interval_width": 0.03778821430252163,
+      "p95_interval_width": 0.0387054378012708,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.026716664361255603,
+      "median_interval_width": 0.026716182875070743,
+      "p95_interval_width": 0.0271452481995623,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.01888122710786279,
+      "median_interval_width": 0.018879735443735834,
+      "p95_interval_width": 0.019086760378103088,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.011941343831301637,
+      "median_interval_width": 0.011941619702300843,
+      "p95_interval_width": 0.01202780147792509,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.008441361976505695,
+      "median_interval_width": 0.008440800360989875,
+      "p95_interval_width": 0.008482830262062632,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.005968542725492837,
+      "median_interval_width": 0.00596833624783194,
+      "p95_interval_width": 0.0059900579962134685,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.003774372602905504,
+      "median_interval_width": 0.0037745817826847217,
+      "p95_interval_width": 0.003782697014636363,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.002668840127601099,
+      "median_interval_width": 0.0026688539654610433,
+      "p95_interval_width": 0.002672888698469328,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.47309558287263714,
+      "median_interval_width": 0.4690718604413219,
+      "p95_interval_width": 0.5794515741674556,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.3261857687693613,
+      "median_interval_width": 0.32424941639157034,
+      "p95_interval_width": 0.3760081756053303,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.2027039653598747,
+      "median_interval_width": 0.20230850993565253,
+      "p95_interval_width": 0.22208399463637613,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.14248921817465,
+      "median_interval_width": 0.14229528087102156,
+      "p95_interval_width": 0.15222979360236186,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.10023252598206517,
+      "median_interval_width": 0.10020017545555218,
+      "p95_interval_width": 0.10514569896938383,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.06321594083076675,
+      "median_interval_width": 0.06323048414461022,
+      "p95_interval_width": 0.06513748401694484,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.0446555804561242,
+      "median_interval_width": 0.04464530387961563,
+      "p95_interval_width": 0.04564052691808279,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.03154511288880469,
+      "median_interval_width": 0.03154763931577137,
+      "p95_interval_width": 0.03200269889356265,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.019939107645599773,
+      "median_interval_width": 0.01993982622609025,
+      "p95_interval_width": 0.0201200621006294,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.01409356740554407,
+      "median_interval_width": 0.014092987338024304,
+      "p95_interval_width": 0.014186117267505488,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.009963423422536696,
+      "median_interval_width": 0.00996283883618701,
+      "p95_interval_width": 0.010011183824141137,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.006300743259633368,
+      "median_interval_width": 0.006300914561891635,
+      "p95_interval_width": 0.006318549717258223,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.004454992057553474,
+      "median_interval_width": 0.004455127120670727,
+      "p95_interval_width": 0.0044639698417219455,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.003149942880591553,
+      "median_interval_width": 0.003149908703646037,
+      "p95_interval_width": 0.0031545815366532228,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.001992100683481053,
+      "median_interval_width": 0.0019920944609381763,
+      "p95_interval_width": 0.0019939356343824433,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0014085879329461103,
+      "median_interval_width": 0.0014085829972491082,
+      "p95_interval_width": 0.001409512127983073,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.3100997134759001,
+      "median_interval_width": 0.3102718723828609,
+      "p95_interval_width": 0.3443835285042477,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.2164501813769551,
+      "median_interval_width": 0.21607759412373112,
+      "p95_interval_width": 0.2333628367421102,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.13590031596099628,
+      "median_interval_width": 0.13584884795587615,
+      "p95_interval_width": 0.14248361648142763,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.09562460580013092,
+      "median_interval_width": 0.09554263131519744,
+      "p95_interval_width": 0.09896736562023822,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.06754799526227526,
+      "median_interval_width": 0.06751162439013852,
+      "p95_interval_width": 0.06926707518886516,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.042651279510757145,
+      "median_interval_width": 0.042650855676224925,
+      "p95_interval_width": 0.04329284585160997,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.030129835760719446,
+      "median_interval_width": 0.03013587218420008,
+      "p95_interval_width": 0.03045963952347723,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.021288566141856768,
+      "median_interval_width": 0.021291388239150888,
+      "p95_interval_width": 0.02144815622418296,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.013459995979707855,
+      "median_interval_width": 0.013459602391216768,
+      "p95_interval_width": 0.013525269977725915,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.009516184245768174,
+      "median_interval_width": 0.009516798702251195,
+      "p95_interval_width": 0.009547789206858417,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.006727949308659955,
+      "median_interval_width": 0.006728068016723182,
+      "p95_interval_width": 0.006744091103968059,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.004254426846192549,
+      "median_interval_width": 0.004254516091831695,
+      "p95_interval_width": 0.004261082641888717,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.003008276362528376,
+      "median_interval_width": 0.003008247203795611,
+      "p95_interval_width": 0.0030115694500534333,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.002127088658716218,
+      "median_interval_width": 0.002127087915825332,
+      "p95_interval_width": 0.0021286860549404735,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0013452358160036487,
+      "median_interval_width": 0.001345251082116361,
+      "p95_interval_width": 0.001345888287290753,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0009512065391883596,
+      "median_interval_width": 0.0009512040031931512,
+      "p95_interval_width": 0.0009515394462276422,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 0.9975,
+      "coverage_mc95": [
+        0.9941755546654815,
+        0.9991877740248061
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.9108089312761554,
+      "median_interval_width": 0.926156904584284,
+      "p95_interval_width": 0.9726540277773094,
+      "empty_set_fallbacks": 8,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.8455357339320176,
+      "median_interval_width": 0.8691865489593713,
+      "p95_interval_width": 0.9329708074964091,
+      "empty_set_fallbacks": 7,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 0.994,
+      "coverage_mc95": [
+        0.9895426861782051,
+        0.9968959837176227
+      ],
+      "precision_probability": 0.001,
+      "precision_mc95": [
+        0.00012112759055682972,
+        0.0036076285698285315
+      ],
+      "mean_interval_width": 0.7432064947999416,
+      "median_interval_width": 0.765917633990675,
+      "p95_interval_width": 0.8545669564154372,
+      "empty_set_fallbacks": 5,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 0.994,
+      "coverage_mc95": [
+        0.9895426861782051,
+        0.9968959837176227
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.6568068785441772,
+      "median_interval_width": 0.6780767881143289,
+      "p95_interval_width": 0.7801742695864785,
+      "empty_set_fallbacks": 7,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.992,
+      "coverage_mc95": [
+        0.9870409314115283,
+        0.9954205953386015
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.5648838682205244,
+      "median_interval_width": 0.5813668979822008,
+      "p95_interval_width": 0.6958960749720087,
+      "empty_set_fallbacks": 4,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 0.9915,
+      "coverage_mc95": [
+        0.9864254538002681,
+        0.9950408649782188
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.44957367421492866,
+      "median_interval_width": 0.4644395922952038,
+      "p95_interval_width": 0.5736859618346334,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 0.993,
+      "coverage_mc95": [
+        0.9882830542294679,
+        0.9961679060996261
+      ],
+      "precision_probability": 0.0005,
+      "precision_mc95": [
+        1.2658823868557889e-05,
+        0.0027826398346589465
+      ],
+      "mean_interval_width": 0.3767186884656279,
+      "median_interval_width": 0.3874134316964098,
+      "p95_interval_width": 0.4821263510674692,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 0.993,
+      "coverage_mc95": [
+        0.9882830542294679,
+        0.9961679060996261
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.3074730333498363,
+      "median_interval_width": 0.31701777535828235,
+      "p95_interval_width": 0.3964606316750446,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.9945,
+      "coverage_mc95": [
+        0.9901803370101006,
+        0.9972513181853675
+      ],
+      "precision_probability": 0.0005,
+      "precision_mc95": [
+        1.2658823868557889e-05,
+        0.0027826398346589465
+      ],
+      "mean_interval_width": 0.24233892876557944,
+      "median_interval_width": 0.24915227498551806,
+      "p95_interval_width": 0.2963206487119625,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 0.992,
+      "coverage_mc95": [
+        0.9870409314115283,
+        0.9954205953386015
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.19895609189164548,
+      "median_interval_width": 0.20697262933657729,
+      "p95_interval_width": 0.22875872154578228,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 0.9915,
+      "coverage_mc95": [
+        0.9864254538002681,
+        0.9950408649782188
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.15949062008022363,
+      "median_interval_width": 0.1631569663535058,
+      "p95_interval_width": 0.17220100690500187,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 0.993,
+      "coverage_mc95": [
+        0.9882830542294679,
+        0.9961679060996261
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.1075208114192634,
+      "median_interval_width": 0.10765567264460019,
+      "p95_interval_width": 0.1141723879110472,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 0.992,
+      "coverage_mc95": [
+        0.9870409314115283,
+        0.9954205953386015
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.07607660047456014,
+      "median_interval_width": 0.07595069023768453,
+      "p95_interval_width": 0.07960724249388516,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 0.993,
+      "coverage_mc95": [
+        0.9882830542294679,
+        0.9961679060996261
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.05374897861492688,
+      "median_interval_width": 0.05372971207108157,
+      "p95_interval_width": 0.055501526054973896,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 0.993,
+      "coverage_mc95": [
+        0.9882830542294679,
+        0.9961679060996261
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.03398972074941135,
+      "median_interval_width": 0.03398960317493671,
+      "p95_interval_width": 0.034679302886560064,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 0.99,
+      "coverage_mc95": [
+        0.98459787421644,
+        0.9938813424572566
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.024029719947416643,
+      "median_interval_width": 0.024025781778737987,
+      "p95_interval_width": 0.02438548661958645,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.491624447003604,
+      "median_interval_width": 0.5003030606023303,
+      "p95_interval_width": 0.6253642757104718,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.3996685246409243,
+      "median_interval_width": 0.40401241847654734,
+      "p95_interval_width": 0.5147457441766673,
+      "empty_set_fallbacks": 1,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.30502612561625003,
+      "median_interval_width": 0.30822460563945225,
+      "p95_interval_width": 0.38492161253344803,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.2460924045430649,
+      "median_interval_width": 0.24969229511569763,
+      "p95_interval_width": 0.30338076622903376,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.20267341104398798,
+      "median_interval_width": 0.20835613266874808,
+      "p95_interval_width": 0.22943432348999046,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.14671662068981717,
+      "median_interval_width": 0.1478647352914091,
+      "p95_interval_width": 0.1526960275039591,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.10549560536744712,
+      "median_interval_width": 0.10546545951539649,
+      "p95_interval_width": 0.10921770367503461,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.07456106440346758,
+      "median_interval_width": 0.0745070256571555,
+      "p95_interval_width": 0.07642425748229272,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.04710677287664315,
+      "median_interval_width": 0.047111544997640975,
+      "p95_interval_width": 0.04783973724287005,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.03327886594253487,
+      "median_interval_width": 0.03328420945898436,
+      "p95_interval_width": 0.03364721383995379,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.02353273735757557,
+      "median_interval_width": 0.023530820258628238,
+      "p95_interval_width": 0.023721776587016276,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.014876898996065804,
+      "median_interval_width": 0.014877947134826375,
+      "p95_interval_width": 0.014950115646192242,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.010519095113489706,
+      "median_interval_width": 0.010519133228952537,
+      "p95_interval_width": 0.010556918688083144,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.00743778662991341,
+      "median_interval_width": 0.007437901378133993,
+      "p95_interval_width": 0.007455828377447271,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.004703567799077346,
+      "median_interval_width": 0.004703432428384835,
+      "p95_interval_width": 0.004710793052098266,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.003325829666889504,
+      "median_interval_width": 0.003325873820296088,
+      "p95_interval_width": 0.0033295375246677915,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 0.9975,
+      "coverage_mc95": [
+        0.9941755546654815,
+        0.9991877740248061
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.3287286479730786,
+      "median_interval_width": 0.33103138641938046,
+      "p95_interval_width": 0.42284840935764634,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.2690769508214754,
+      "median_interval_width": 0.271916481405147,
+      "p95_interval_width": 0.3346437147347813,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.20499469450777158,
+      "median_interval_width": 0.21197366610898338,
+      "p95_interval_width": 0.2312834527664847,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 0.9975,
+      "coverage_mc95": [
+        0.9941755546654815,
+        0.9991877740248061
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.16149366105143823,
+      "median_interval_width": 0.1644061187585809,
+      "p95_interval_width": 0.16977721126887685,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.998,
+      "coverage_mc95": [
+        0.9948871913946538,
+        0.999454806874789
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.11823206833983405,
+      "median_interval_width": 0.11830078359671609,
+      "p95_interval_width": 0.1220609503919566,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.0747386505699264,
+      "median_interval_width": 0.07469774324296324,
+      "p95_interval_width": 0.07643552128800288,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.05282331175549467,
+      "median_interval_width": 0.05281593373880822,
+      "p95_interval_width": 0.05363100676706621,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.03733270951539666,
+      "median_interval_width": 0.037327465534257476,
+      "p95_interval_width": 0.03772635973642248,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.023596429997565033,
+      "median_interval_width": 0.023596570527319116,
+      "p95_interval_width": 0.023760283387416658,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.016681822286836952,
+      "median_interval_width": 0.01668174002195133,
+      "p95_interval_width": 0.01676468954126952,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.011795178318776023,
+      "median_interval_width": 0.011795800149783264,
+      "p95_interval_width": 0.011835066815376915,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.007458753212143706,
+      "median_interval_width": 0.007458755552736895,
+      "p95_interval_width": 0.0074746273517576015,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.005273548980147002,
+      "median_interval_width": 0.005273512775305911,
+      "p95_interval_width": 0.005281355721375331,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.003728902323635671,
+      "median_interval_width": 0.0037289090679376025,
+      "p95_interval_width": 0.003732990110683321,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0023582382203140633,
+      "median_interval_width": 0.0023582363733768985,
+      "p95_interval_width": 0.0023598383455675108,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.001667520357737271,
+      "median_interval_width": 0.0016675175406420384,
+      "p95_interval_width": 0.0016683051652719495,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 1000,
+      "detector_evaluations": 2000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.23974379441352164,
+      "median_interval_width": 0.24247814426549175,
+      "p95_interval_width": 0.2908804854424257,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 2000,
+      "detector_evaluations": 4000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.1950468439114539,
+      "median_interval_width": 0.20189475937121587,
+      "p95_interval_width": 0.21739601007698642,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 5000,
+      "detector_evaluations": 10000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.13674698397349017,
+      "median_interval_width": 0.13720424958618183,
+      "p95_interval_width": 0.14122558353387563,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 10000,
+      "detector_evaluations": 20000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.09712291485026596,
+      "median_interval_width": 0.09711777799307564,
+      "p95_interval_width": 0.09957207420158265,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 20000,
+      "detector_evaluations": 40000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.06857482766750372,
+      "median_interval_width": 0.06856452238687083,
+      "p95_interval_width": 0.069789612303113,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 0.0,
+      "precision_mc95": [
+        0.0,
+        0.0018427397934059364
+      ],
+      "mean_interval_width": 0.04331898797910878,
+      "median_interval_width": 0.043320032447059675,
+      "p95_interval_width": 0.04377451461346902,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.03060793215105928,
+      "median_interval_width": 0.030611201370951135,
+      "p95_interval_width": 0.03085106703824957,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.021634681136506424,
+      "median_interval_width": 0.0216349531826171,
+      "p95_interval_width": 0.021752924450169832,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 2000,
+      "coverage": 0.9985,
+      "coverage_mc95": [
+        0.9956226798954704,
+        0.9996905570506877
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.013677155955140418,
+      "median_interval_width": 0.01367695337394842,
+      "p95_interval_width": 0.01372608917802462,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.009669330992813013,
+      "median_interval_width": 0.009669138832143931,
+      "p95_interval_width": 0.009693583370272285,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 2000000,
+      "detector_evaluations": 4000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.006836353717770767,
+      "median_interval_width": 0.006836098125409529,
+      "p95_interval_width": 0.006848774711516787,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 5000000,
+      "detector_evaluations": 10000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.004323161312955567,
+      "median_interval_width": 0.004323100739591412,
+      "p95_interval_width": 0.0043281380826423466,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 10000000,
+      "detector_evaluations": 20000000,
+      "replicates": 2000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0030567493435015728,
+      "median_interval_width": 0.003056782188942342,
+      "p95_interval_width": 0.003059127815510959,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 20000000,
+      "detector_evaluations": 40000000,
+      "replicates": 2000,
+      "coverage": 0.997,
+      "coverage_mc95": [
+        0.9934817813900255,
+        0.9988982817749746
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.002161306896298703,
+      "median_interval_width": 0.0021613218089573394,
+      "p95_interval_width": 0.0021624775433428667,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 2000,
+      "coverage": 0.999,
+      "coverage_mc95": [
+        0.9963923714301715,
+        0.9998788724094432
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.0013668982485183566,
+      "median_interval_width": 0.001366901138635357,
+      "p95_interval_width": 0.0013673652310509487,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 100000000,
+      "detector_evaluations": 200000000,
+      "replicates": 2000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.997217360165341,
+        0.9999873411761314
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.998157260206594,
+        1.0
+      ],
+      "mean_interval_width": 0.000966512764031389,
+      "median_interval_width": 0.000966511556029892,
+      "p95_interval_width": 0.0009667532739665252,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ]
+    }
+  ],
+  "confirmation": [
+    {
+      "rho": 0.1,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 10000,
+      "coverage": 0.9869,
+      "coverage_mc95": [
+        0.9844740528077613,
+        0.9890358615177594
+      ],
+      "precision_probability": 0.995,
+      "precision_mc95": [
+        0.9934133735709201,
+        0.9962866938204445
+      ],
+      "mean_interval_width": 0.02964778078364342,
+      "median_interval_width": 0.029358247528047776,
+      "p95_interval_width": 0.03557564121076508,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.97496672625,
+        0.014785773750000002,
+        0.010083273750000002,
+        0.00016422625000000004
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 10000,
+      "coverage": 0.9989,
+      "coverage_mc95": [
+        0.9980326505194581,
+        0.9994507601153076
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.022475384202830226,
+      "median_interval_width": 0.02243747865093463,
+      "p95_interval_width": 0.0242020944613777,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.95100328125,
+        0.03280921875000001,
+        0.014246718750000002,
+        0.00194078125
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 10000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.9988335557909334,
+        0.9998376320658011
+      ],
+      "precision_probability": 0.999,
+      "precision_mc95": [
+        0.9981617358657894,
+        0.9995203602762289
+      ],
+      "mean_interval_width": 0.034375453751751536,
+      "median_interval_width": 0.0343419909654548,
+      "p95_interval_width": 0.03714792576384704,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9188437500000001,
+        0.04640625,
+        0.021656250000000002,
+        0.013093750000000001
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.1,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 50000,
+      "detector_evaluations": 100000,
+      "replicates": 10000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.02406815462628391,
+      "median_interval_width": 0.024071001605651725,
+      "p95_interval_width": 0.025051419330792787,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.89280984375,
+        0.04150265625,
+        0.022940156250000003,
+        0.04274734375
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 10000,
+      "coverage": 0.9908,
+      "coverage_mc95": [
+        0.9887287859255516,
+        0.9925772403259312
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.031727145391972196,
+      "median_interval_width": 0.03172112885935047,
+      "p95_interval_width": 0.032889101958498534,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9544336312499999,
+        0.034328868750000005,
+        0.01081636875,
+        0.0004211312500000001
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 500000,
+      "detector_evaluations": 1000000,
+      "replicates": 10000,
+      "coverage": 0.9989,
+      "coverage_mc95": [
+        0.9980326505194581,
+        0.9994507601153076
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.03781327997230442,
+      "median_interval_width": 0.037809417875334955,
+      "p95_interval_width": 0.03864677754791607,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.8346164062499999,
+        0.12444609375,
+        0.031633593749999994,
+        0.009303906249999999
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 10000,
+      "coverage": 0.9995,
+      "coverage_mc95": [
+        0.9988335557909334,
+        0.9998376320658011
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.03154279614519007,
+      "median_interval_width": 0.03154014400503616,
+      "p95_interval_width": 0.03201629423686281,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.6738187499999999,
+        0.19243125,
+        0.06868125,
+        0.06506875
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.5,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 10000,
+      "coverage": 1.0,
+      "coverage_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.03012710264088464,
+      "median_interval_width": 0.030128791712185382,
+      "p95_interval_width": 0.030456948977925533,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.5436492187499999,
+        0.16791328125,
+        0.07510078125000001,
+        0.21333671875
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.05,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.059500000000000004,
+      "sensitivity_2": 0.012475,
+      "queries": 50000000,
+      "detector_evaluations": 100000000,
+      "replicates": 10000,
+      "coverage": 0.9939,
+      "coverage_mc95": [
+        0.9921711011041445,
+        0.9953308648444829
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.0339845924265327,
+      "median_interval_width": 0.033977587810487764,
+      "p95_interval_width": 0.034681303126861504,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.9339005362499999,
+        0.05387196375,
+        0.011549463749999999,
+        0.0006780362500000001
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.25,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.2575,
+      "sensitivity_2": 0.071875,
+      "queries": 1000000,
+      "detector_evaluations": 2000000,
+      "replicates": 10000,
+      "coverage": 0.9987,
+      "coverage_mc95": [
+        0.9977779863787409,
+        0.9993076289114248
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.03328619794974137,
+      "median_interval_width": 0.03328656327039953,
+      "p95_interval_width": 0.03365954813809648,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.7182295312499999,
+        0.21608296875,
+        0.04902046874999999,
+        0.01666703125
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.5,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.505,
+      "sensitivity_2": 0.2575,
+      "queries": 200000,
+      "detector_evaluations": 400000,
+      "replicates": 10000,
+      "coverage": 0.9989,
+      "coverage_mc95": [
+        0.9980326505194581,
+        0.9994507601153076
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.03733000782373546,
+      "median_interval_width": 0.037331254294961314,
+      "p95_interval_width": 0.037739500647225574,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.42879375,
+        0.33845624999999996,
+        0.11570625000000001,
+        0.11704375
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    },
+    {
+      "rho": 0.9,
+      "theta": 0.75,
+      "fpr_both": 0.01,
+      "sensitivity_1": 0.7525,
+      "sensitivity_2": 0.566875,
+      "queries": 100000,
+      "detector_evaluations": 200000,
+      "replicates": 10000,
+      "coverage": 0.9994,
+      "coverage_mc95": [
+        0.9986945135169888,
+        0.9997797797613424
+      ],
+      "precision_probability": 1.0,
+      "precision_mc95": [
+        0.9996311800853812,
+        1.0
+      ],
+      "mean_interval_width": 0.030607566992858545,
+      "median_interval_width": 0.030605577062814193,
+      "p95_interval_width": 0.03084920551747038,
+      "empty_set_fallbacks": 0,
+      "joint_probabilities_00_10_01_11": [
+        0.19448859375,
+        0.29432390625,
+        0.12726140625000001,
+        0.38392609375000003
+      ],
+      "selection_passed": true,
+      "precision_criterion_met": true,
+      "query_count_interpretation": "Smallest candidate passing the frozen selection rule, independently confirmed once; not an exact minimal sample size"
+    }
+  ],
+  "failures": [],
+  "planned_selection_cells": 192,
+  "planned_confirmation_cells": 12,
+  "wall_seconds": 9.688548208010616,
+  "finished_utc": "2026-11-18T19:27:28.360804+00:00"
+}

@@ -1,0 +1,44 @@
+T12 C identification and uncertainty
+
+Each independent query has M~Bernoulli(rho). Conditional on M, channel flags
+are independent. Unmarked TPRs are f=0.01. Marked sensitivities are
+s1=f+(1-f)*theta and s2=f+(1-f)*theta^2. Thus marginal detector flags are
+correlated because they share M. The joint four-category multinomial is
+sampled exactly, avoiding the need to allocate n synthetic texts in memory.
+One query means one output checked by both channels, hence two detector calls.
+
+Writing a=(q1-f)/(1-f)=rho*theta and b=(q2-f)/(1-f)=rho*theta^2,
+the interior inverse is theta=b/a and rho=a^2/b. The Jacobian determinant
+is (1-f)^2*rho*theta^2, so identification fails at theta=0 and precision
+deteriorates near the singular boundary. At rho=0 theta is unidentified.
+Different sensitivities alone are not sufficient in general; their response
+curves must yield a full rank mapping, as these chosen curves do inside.
+One channel at q1=0.2575 only gives rho*theta=0.25 and rho in [0.25,1].
+
+Each marginal probability gets a 97.5 percent exact Clopper Pearson
+interval. The union bound gives joint coverage at least 95 percent without
+assuming independence across channels. Transform to a rectangle with
+a in [A,B], b in [C,D], intersecting the model's wedge a^2<=b<=a.
+For l=max(A,C,0) and h=min(B,sqrt(D),1), a nonempty regular feasible
+set projects onto rho from l^2/min(D,l) to h^2/max(C,h^2).
+If the rectangle contains the origin, rho ranges over [0,1].
+An empty set is flagged and conservatively replaced by [0,1].
+The interval midpoint is used for the within two percentage point claim.
+
+For each rho and theta, all frozen query-grid candidates receive 2000
+selection replicates. The smallest with at least 97.5 percent narrow
+intervals is selected. Exactly one independent batch of 10000 confirmation
+replicates then estimates coverage and the probability of width<=0.04.
+Success requires the lower bound of that probability's two-sided exact
+95 percent Monte Carlo interval to be at least 0.95. No confirmation-guided
+search or retry is permitted. If no candidate passes selection, the maximum
+candidate is confirmed for a descriptive cap result, without a precision claim.
+This is conservative conditional evidence, not calibration of actual short
+text watermark detectors. Near theta=0 no finite uniform sample guarantee
+is possible. Query-grid limits and all failed cells remain reported.
+
+The earlier audit used one detector with separately calibrated sensitivity
+in two strata. It did not jointly identify marking fraction and strength
+or determine this two channel precision query count.
+
+See README.md for portable execution commands.

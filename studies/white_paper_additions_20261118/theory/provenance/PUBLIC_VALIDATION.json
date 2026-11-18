@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "validated_utc": "2026-11-18T19:43:51.835396+00:00",
+  "scope": "Post-result software checks, no Monte Carlo scientific rerun",
+  "analytic_boundary_cases": 7,
+  "independent_parameter_grid_points": 251001,
+  "rectangle_checks": 25,
+  "joint_distribution_and_dependence": "passed",
+  "binomial_endpoints": "passed",
+  "source_sha256": {
+    "t12c.py": "4157ea7b18e3afd54601b982c27295678255b604146bd6e8da318be92c09977a",
+    "common.py": "cdf54fb3c3a054a2716c9d102b241f0ea79d0c332605a070096e2b86aeda2c63",
+    "validate.py": "6ca7e3452e8b72e74292643d58200646a003e6e55b1a9a741d9c987efb50b902"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "1f1ea0729ee8b64f3793ae79dfce8c79076bc6427f8773a912881d1a44da8877",
+  "source_sha256": {
+    "t12c.py": "4157ea7b18e3afd54601b982c27295678255b604146bd6e8da318be92c09977a",
+    "common.py": "bf8a2acc636aa313f7940968e38d34682cdb4e2b9b147d12fa45e4a3ad421177"
+  },
+  "freeze_is_local_not_external_preregistration": true
+}

@@ -1,0 +1,44 @@
+{
+  "experiment": "T12-C",
+  "not_before_utc": "2026-11-18T19:36:00+00:00",
+  "seed": 2026111803,
+  "fpr": 0.01,
+  "rho_grid": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "theta_grid": [
+    0.05,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "query_grid": [
+    1000,
+    2000,
+    5000,
+    10000,
+    20000,
+    50000,
+    100000,
+    200000,
+    500000,
+    1000000,
+    2000000,
+    5000000,
+    10000000,
+    20000000,
+    50000000,
+    100000000
+  ],
+  "selection_replicates": 2000,
+  "confirmation_replicates": 10000,
+  "selection_precision_rate": 0.975,
+  "confidence_alpha": 0.05,
+  "target_width": 0.04,
+  "target_precision_probability": 0.95,
+  "primary_table_rho": 0.5,
+  "analysis": "Conditional oracle-calibration simulation. Channel sensitivities are f+(1-f)*theta and f+(1-f)*theta^2. Query outcomes share one latent marking indicator. Conditional detector flags are independent given mark, so marginal flags are correlated. Select the smallest frozen query-grid n with at least 97.5 percent narrow intervals in 2000 selection replicates, then validate exactly once on 10000 independent confirmation replicates. Criterion is the lower endpoint of a two-sided exact 95 percent Monte Carlo interval for P(CI width<=0.04) at least 0.95. Report coverage and precision MC intervals. If no n passes selection, confirm the maximum n and label not attained. No repeated confirmation search. This is not empirical calibration on real 50-token text.",
+  "frozen_utc": "2026-11-18T19:27:18.635847+00:00"
+}

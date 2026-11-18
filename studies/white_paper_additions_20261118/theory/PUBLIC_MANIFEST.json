@@ -1,0 +1,25 @@
+{
+  "files_sha256": {
+    "DESIGN.txt": "e63944136c9855d583e820b536bfe490081b4c8cadd8bf5aba55ce67de23121c",
+    "README.md": "549e6802fc707443bf0df771b45de2e7cc9426a82bf2e3bb71fc36b56f6ab290",
+    "common.py": "cdf54fb3c3a054a2716c9d102b241f0ea79d0c332605a070096e2b86aeda2c63",
+    "provenance/ORIGINAL_SOURCE_SHA256.json": "8bcfac84c445639c22faee718ba886c4480f1775a9de8b66b2bbaeee274e3bcf",
+    "provenance/PORTABLE_ADAPTATIONS.json": "6148b01e4472d723c55b1a179363868d5f1425b50d5383d30714599e7df60774",
+    "provenance/PUBLIC_VALIDATION.json": "619b825e9683bc60830e6a9c9ac3ce849ce921c3640ab227f9c0288520e6d7ed",
+    "requirements.txt": "a328fd1cf5402fff8e0c87457272ce115b5d520c34a563236609c7b586729435",
+    "results/T12-C/FREEZE.json": "4686d1d5606d2f9079b577aeb307ec9ba068dc3a3846bd132b78d6cf29f74b29",
+    "results/T12-C/PROTOCOL.json": "1f1ea0729ee8b64f3793ae79dfce8c79076bc6427f8773a912881d1a44da8877",
+    "results/T12-C/RESULT.md": "b842a87237fb615473ac871d21080a11bc134cb04b225395bb7fb4073cef63d8",
+    "results/T12-C/RUN_COMPLETE.json": "ed9347b6e3159bf387be67318cbebbb8c64243d1117a1da3ec8725a81e1a8fd6",
+    "results/T12-C/confirmation.csv": "7eb71d1a2f13999edeadbb635ceedebc5e246898b6dc96b57cbfe4dc6a46180e",
+    "results/T12-C/selection.csv": "4172e47bf2ca7c4a8f9a8b0797c1c071361b36654ffd7af46880e1dd0c6e0400",
+    "results/T12-C/summary.json": "19dc277e485ba3d11fb1dc577f0822d9a7920814980bde2fd213a19d424d7eb2",
+    "t12c.py": "4157ea7b18e3afd54601b982c27295678255b604146bd6e8da318be92c09977a",
+    "t12c_protocol.json": "a9f0d4a5e3e97dee7a2962582287fb0e8b07f535c20762279b10a25000efe090",
+    "validate.py": "6ca7e3452e8b72e74292643d58200646a003e6e55b1a9a741d9c987efb50b902"
+  },
+  "validation": "Target-specific numerical checks and prepare-only command passed. No full scientific rerun performed.",
+  "scientific_entrypoint_unchanged": "t12c.py",
+  "historical_protocol_byte_identical": true,
+  "privacy": "No local absolute paths, personal names, affiliation, private decision records, or raw replicate data included."
+}
