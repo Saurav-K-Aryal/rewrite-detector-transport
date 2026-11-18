@@ -1,0 +1,12 @@
+{
+  "completed_utc": "2026-11-18T19:53:20.039029+00:00",
+  "n": 3,
+  "max_seconds_with_margin": 5.421553645010135,
+  "selected_n": 450,
+  "status": "ready",
+  "generation_only_estimated_seconds": 2439.699140254561,
+  "records_sha256": "35ade87f25d9739ca1f3217179987a19062420eacdce66d5cd396ac7c7d5966c",
+  "errors": 0,
+  "runtime_only_selection": true,
+  "semantic_or_detector_outcomes_not_used": true
+}

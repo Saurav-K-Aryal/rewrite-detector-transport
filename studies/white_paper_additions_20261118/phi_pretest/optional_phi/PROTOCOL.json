@@ -1,0 +1,43 @@
+{
+  "prepared_utc": "2026-11-18T19:30:24.954036+00:00",
+  "version": "optional-phi-rewrite-v1",
+  "model": "phi4:14b",
+  "source_run": "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12",
+  "test_manifest_sha256": "5078c9eeededbfe54782b9125b5a3a641d45e0435ff7ca994f2b3737fcc8ad6b",
+  "dev_manifest_sha256": "562078186b6d73f661fb3c2d2cf41e9a856b908f1f966f5ed489618978d35f69",
+  "input_sha256": {
+    "PROJECT_ROOT/outputs/pilot_extensions/topic12_extension.py": "15de9720cccc9c388fddc9a1f416c88c6a5e73383212ef846518aab99e328f78",
+    "PROJECT_ROOT/outputs/overnight_multimodel/local_models.py": "6beae01016169f6f809357961199c3bb4b432e126a7e8068f4e80d6fcd69631a",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T025754Z_smoke/topic12/records.jsonl": "bbb706d5f5200441b2848dad6fc0387de83b77ada9598582963075077e0fa9bf",
+    "PROJECT_ROOT/outputs/pilot_extensions/detectors.py": "36e35e1c52e24a7821b992608cd05f29b98d22459efea4a960cb32d1231484c4",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/run_topic12.py": "1d32ef8403e14449768be64c0556839fa44bd14067e93ba89da5945a28384419",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/optional_phi.py": "18db40747dc01a5f26808b4a60e14f1360d07cba797145010bfcc00dd55d3169",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/PROTOCOL.json": "66fd68908160117d217b3ab84010c5820891386e663df815b499ce2c7befdee3",
+    "PROJECT_ROOT/outputs/white_paper_additions/DECISIONS.json": "d260c76768f8f6e6ea00e0cf920210f22d19f39e26b128ef8fefbcaeab86fc51",
+    "PROJECT_ROOT/outputs/github_repos/rewrite-detector-transport/data/thresholds.json": "1612c279ca422c81a88fe5b5b404a635db585110312a6b7813e3598ff44af43e",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/RADAR_CALIBRATION.json": "ccd42fd8dd38c15fe7f0b6d0f5b654c9bb957b49de4fbc1af7e6ddfcfe196874",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/SCORING_LOCK.json": "b581520d176edba282f8cbfe50a27a97910d59c83b2ca06674fbf1bbb830778a"
+  },
+  "test_parent_ids": 450,
+  "development_parents": 3,
+  "seed": 202611181412,
+  "prompts": {
+    "system": "You are participating in a controlled writing study. Return only the requested prose, without a preface, heading, or commentary.",
+    "rewrite": "Rewrite the passage below in your own wording and sentence organization while preserving every material assertion. Do not add new assertions, contradict or omit material information, or discuss the rewriting process. Use 110 to 125 words of clear prose. Return only the rewritten passage.\n\nPassage:\n{text}"
+  },
+  "decoding": {
+    "num_predict": 384,
+    "num_ctx": 8192,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "repeat_penalty": 1.0,
+    "retries": 0
+  },
+  "generation_budget_seconds": 7200,
+  "detector_device": "mps",
+  "runtime_selection": "Use development maximum wall seconds plus 25 percent. Reserve 60 seconds. Choose the largest source balanced prefix of the frozen 450 IDs fitting the generation budget. Minimum 30 test pairs or drop this optional experiment. Never select by observed test outcomes.",
+  "scoring": "Pinned original Binoculars, Fast DetectGPT and RADAR implementations and thresholds. No recalibration. Detector calls use the first 128 whitespace words. Score errors stay unknown and are never retried selectively.",
+  "length_filter": "Same 100 to 128 word and valid completion contract for both parent and child as T12-A.",
+  "inference": "Serial local inference only after root grants an explicit scheduling slot. Metadata and full model digest frozen before development and rechecked for generation. Development outputs are excluded from test.",
+  "status": "Prepared without inference. This optional extension must not delay mandatory experiments."
+}

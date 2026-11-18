@@ -1,0 +1,82 @@
+{
+  "version": "optional-phi-analysis-v1",
+  "frozen_utc": "2026-11-18T20:17:02.167761+00:00",
+  "freeze_timing": "Before every Phi test request. Three disjoint development outputs already exist and are excluded.",
+  "historical_exposure": "Historical Gemma, Qwen and self rewrite detector aggregates and T12-A/B sensitivity results are already known. Phi test outputs and scores do not yet exist.",
+  "input_sha256": {
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/analyze_phi.py": "b8537672d17043654111e3dffd1edff979d55436635671e6b93fbd4108a117e0",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/run_topic12.py": "1d32ef8403e14449768be64c0556839fa44bd14067e93ba89da5945a28384419",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/optional_phi.py": "18db40747dc01a5f26808b4a60e14f1360d07cba797145010bfcc00dd55d3169",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/optional_phi/PROTOCOL.json": "6582d3b226415caccfef8fc5df2cee98bf78e4790331fafb15898b2a6a4b1e2e",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/optional_phi/MODEL_LOCK.json": "dd3deb124f0c8c4f700a30f30664bf499c316b298fea6ebf82446da1b04ddcac",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/optional_phi/TEST_MANIFEST.json": "5078c9eeededbfe54782b9125b5a3a641d45e0435ff7ca994f2b3737fcc8ad6b",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/optional_phi/SELECTED_TEST_MANIFEST.json": "5078c9eeededbfe54782b9125b5a3a641d45e0435ff7ca994f2b3737fcc8ad6b",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/optional_phi/TEST_LOCK.json": "26a26de4340ce5cba348f292ea3237c3b3924b09ae22c2e71895053d9990b75c",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/optional_phi/DEVELOPMENT.json": "78ced0f63920a5a7c21abd9161b66954e007af3661490cdd7b02f274db8ca36f",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/PROTOCOL.json": "66fd68908160117d217b3ab84010c5820891386e663df815b499ce2c7befdee3",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/records.jsonl": "d467f1be34bbfe26b0f1a49b98918b030ba75bb31a1c74696d4f306c79ce4b10",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/scores.jsonl": "612ea029be4725287e26208c2be5e729f564101c8d72889b30446d612a051a2b",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/SCORES_COMPLETE.json": "50b10d8067af9b894891fce4491fa632e44eb3b38848d13eac56fd5edbdb11ce",
+    "PROJECT_ROOT/outputs/github_repos/rewrite-detector-transport/data/thresholds.json": "1612c279ca422c81a88fe5b5b404a635db585110312a6b7813e3598ff44af43e",
+    "PROJECT_ROOT/outputs/white_paper_additions/topic12/T12-A/REUSED_DETECTOR_PROVENANCE.json": "b5724ba601e753b8c8604c8e2956428f32eb930629552c01cc6319bcca2e3d94"
+  },
+  "synthetic_self_test": {
+    "status": "passed",
+    "synthetic_only": true,
+    "checks": [
+      "Wilson unknown envelope",
+      "paired nine contrast formula parity",
+      "unknown pair denominator",
+      "unknown identification interval",
+      "conservative missing bounds",
+      "retention conditional denominator",
+      "empty cells",
+      "zero flagged parents",
+      "positive and negative direction"
+    ]
+  },
+  "planned_parent_groups": 450,
+  "selected_test_groups": 450,
+  "primary_panel": "Intersection by exact parent_id and qid where historical Gemma direct, historical Qwen rewrite, historical Gemma self rewrite and new Phi rewrite each satisfy the frozen 100 to 128 whitespace word and valid completion contract. Inclusion never depends on detector scores.",
+  "primary_table_rows": [
+    "Gemma direct",
+    "Qwen rewrite",
+    "Gemma self rewrite",
+    "Phi rewrite"
+  ],
+  "detectors": [
+    "binoculars",
+    "fastdetectgpt",
+    "radar"
+  ],
+  "thresholds": "Original frozen detector cutoffs unchanged. No fitting, recalibration or threshold selection.",
+  "primary_cells": "Flag fractions on the common eligible panel. Every cell reports confirmed flags, n, unknown count, and a descriptive 95 percent Wilson interval. Unknown scores remain in n and widen the interval to the union over every unknown flag assignment.",
+  "paired_comparisons": [
+    "Gemma direct minus Phi",
+    "Qwen rewrite minus Phi",
+    "Gemma self rewrite minus Phi"
+  ],
+  "paired_family": "Nine simultaneous contrasts, three comparisons for each of three detectors. Also show conservative individual 95 percent intervals. Differences use union bounds on two Clopper Pearson discordance proportions. Unknown paired outcomes widen both discordance bounds and stay in n; no point estimate is imputed.",
+  "retention": "Fraction of common-panel Phi rewrites still flagged among known flagged direct Gemma parents, separately for each detector. Child score outages remain unknown in this denominator; unavailable parent scores are counted separately.",
+  "diagnostics": "All 450 planned parent groups remain in accounting, including runtime omissions, generation errors, length violations, unavailable detector scores and common-panel exclusions. Separate own-Phi eligible parent and Phi rates are diagnostic, not replacements for the common panel. Completion and eligibility fractions have explicit n and Wilson intervals.",
+  "human_reference": "The unchanged T12-A human control false positive rates are provided outside the four-row table as reference rates, with n and 95 percent intervals.",
+  "meaning_preservation": "Phi outputs have no human fidelity evidence. No Phi embedding proxy is used in this primary extension. This analysis does not unlock or replace the historical 900 pair dual-human endpoint.",
+  "inference": "Descriptive comparisons on a fixed source and detector panel. A positive, negative or inconclusive contrast will be reported without an expected favorable direction.",
+  "limits": [
+    "Phi is approximately 14.7 billion parameters and Gemma approximately 12.38 billion. Model size, training and serving backend are confounded.",
+    "Comparator texts are reused and questions do not establish author independence.",
+    "The common-panel restriction is conditional on valid outputs from every model and may select easier groups.",
+    "Results do not establish human fidelity, factual correctness or a universal detection limit."
+  ],
+  "outputs": [
+    "RESULT.txt",
+    "PHI_ANALYSIS.json",
+    "ANALYSIS_COMPLETE.json",
+    "common_panel_cells.csv",
+    "paired_contrasts.csv",
+    "parent_flag_retention.csv",
+    "planned_diagnostics.csv",
+    "planned_accounting.csv"
+  ],
+  "public_release": "Only validated scripts, protocols with local paths redacted, aggregate outputs and run metadata. No source prose, individual records or private human material."
+}

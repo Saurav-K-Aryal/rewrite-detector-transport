@@ -1,0 +1,94 @@
+{
+  "assembled_utc": "2026-11-18T20:19:45.306736+00:00",
+  "status": "staged, not pushed",
+  "original_protocol_hashes": {
+    "generation_protocol": "6582d3b226415caccfef8fc5df2cee98bf78e4790331fafb15898b2a6a4b1e2e",
+    "analysis_addendum": "e2de21d6c8a68f3c6a2a7f3cfa873f9daeda554419bfcde7a0f29ecaa9f4f1b7"
+  },
+  "files": [
+    {
+      "file": "optional_phi.py",
+      "original_sha256": "18db40747dc01a5f26808b4a60e14f1360d07cba797145010bfcc00dd55d3169",
+      "public_sha256": "18db40747dc01a5f26808b4a60e14f1360d07cba797145010bfcc00dd55d3169",
+      "redacted_local_paths_only": false,
+      "scientific_source_unchanged": true
+    },
+    {
+      "file": "analyze_phi.py",
+      "original_sha256": "b8537672d17043654111e3dffd1edff979d55436635671e6b93fbd4108a117e0",
+      "public_sha256": "b8537672d17043654111e3dffd1edff979d55436635671e6b93fbd4108a117e0",
+      "redacted_local_paths_only": false,
+      "scientific_source_unchanged": true
+    },
+    {
+      "file": "run_topic12.py",
+      "original_sha256": "1d32ef8403e14449768be64c0556839fa44bd14067e93ba89da5945a28384419",
+      "public_sha256": "1d32ef8403e14449768be64c0556839fa44bd14067e93ba89da5945a28384419",
+      "redacted_local_paths_only": false,
+      "scientific_source_unchanged": true
+    },
+    {
+      "file": "optional_phi/PROTOCOL.json",
+      "original_sha256": "6582d3b226415caccfef8fc5df2cee98bf78e4790331fafb15898b2a6a4b1e2e",
+      "public_sha256": "bbf651a79032e0482a8b04a97981cadce3ef0c4a45830fa03418cb5c54de2bf1",
+      "redacted_local_paths_only": true,
+      "scientific_source_unchanged": false
+    },
+    {
+      "file": "optional_phi/ANALYSIS_ADDENDUM.json",
+      "original_sha256": "e2de21d6c8a68f3c6a2a7f3cfa873f9daeda554419bfcde7a0f29ecaa9f4f1b7",
+      "public_sha256": "8f1b2f251d45270fa8c71c68982a4732350c2d146c3d44b0325ea163bc45d3b5",
+      "redacted_local_paths_only": true,
+      "scientific_source_unchanged": false
+    },
+    {
+      "file": "optional_phi/MODEL_LOCK.json",
+      "original_sha256": "dd3deb124f0c8c4f700a30f30664bf499c316b298fea6ebf82446da1b04ddcac",
+      "public_sha256": "dd3deb124f0c8c4f700a30f30664bf499c316b298fea6ebf82446da1b04ddcac",
+      "redacted_local_paths_only": false,
+      "scientific_source_unchanged": false
+    },
+    {
+      "file": "optional_phi/PRE_INFERENCE_LOCK.json",
+      "original_sha256": "ba6a6efc21f5679d1fb5429a49a5def1a6c6d86867c139b89c6d34cb2dcc7963",
+      "public_sha256": "ba6a6efc21f5679d1fb5429a49a5def1a6c6d86867c139b89c6d34cb2dcc7963",
+      "redacted_local_paths_only": false,
+      "scientific_source_unchanged": false
+    },
+    {
+      "file": "optional_phi/TEST_MANIFEST.json",
+      "original_sha256": "5078c9eeededbfe54782b9125b5a3a641d45e0435ff7ca994f2b3737fcc8ad6b",
+      "public_sha256": "5078c9eeededbfe54782b9125b5a3a641d45e0435ff7ca994f2b3737fcc8ad6b",
+      "redacted_local_paths_only": false,
+      "scientific_source_unchanged": false
+    },
+    {
+      "file": "optional_phi/SELECTED_TEST_MANIFEST.json",
+      "original_sha256": "5078c9eeededbfe54782b9125b5a3a641d45e0435ff7ca994f2b3737fcc8ad6b",
+      "public_sha256": "5078c9eeededbfe54782b9125b5a3a641d45e0435ff7ca994f2b3737fcc8ad6b",
+      "redacted_local_paths_only": false,
+      "scientific_source_unchanged": false
+    },
+    {
+      "file": "optional_phi/TEST_LOCK.json",
+      "original_sha256": "26a26de4340ce5cba348f292ea3237c3b3924b09ae22c2e71895053d9990b75c",
+      "public_sha256": "26a26de4340ce5cba348f292ea3237c3b3924b09ae22c2e71895053d9990b75c",
+      "redacted_local_paths_only": false,
+      "scientific_source_unchanged": false
+    },
+    {
+      "file": "optional_phi/DEVELOPMENT.json",
+      "original_sha256": "78ced0f63920a5a7c21abd9161b66954e007af3661490cdd7b02f274db8ca36f",
+      "public_sha256": "78ced0f63920a5a7c21abd9161b66954e007af3661490cdd7b02f274db8ca36f",
+      "redacted_local_paths_only": false,
+      "scientific_source_unchanged": false
+    }
+  ],
+  "raw_source_or_generated_prose_included": false,
+  "individual_detector_outcomes_included": false,
+  "human_rating_material_included": false,
+  "no_phi_test_activity_at_staging": true,
+  "pretest_status_sha256": "d0e4b806c41d78582f667f5108b987267e7f2b68bdfa3aa6775666007c546fd5",
+  "readme_sha256": "ff9c1705a41089c04fde5cb8246a156e0f6e593a5d32759585278b53e056dcac",
+  "builder_sha256": "67fa36689377549fd7234f3609b7c4a3290e41fcb983a8777dd074c326f13e13"
+}

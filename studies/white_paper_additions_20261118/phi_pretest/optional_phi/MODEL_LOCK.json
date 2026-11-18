@@ -1,0 +1,72 @@
+{
+  "model": {
+    "tag": "phi4:14b",
+    "digest": "ac896e5b8b34a1f4efa7b14d7520725140d5512484457fab45d2a4ea14c69dba",
+    "bytes": 9053116391,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "phi3",
+      "families": [
+        "phi3"
+      ],
+      "parameter_size": "14.7B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 16384,
+      "embedding_length": 5120,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion"
+    ],
+    "thinking": null,
+    "parameters": "stop                           \"<|im_start|>\"\nstop                           \"<|im_end|>\"\nstop                           \"<|im_sep|>\"",
+    "model_info": {
+      "general.architecture": "phi3",
+      "general.basename": "phi",
+      "general.file_type": 15,
+      "general.languages": [
+        "en"
+      ],
+      "general.license": "mit",
+      "general.license.link": "https://huggingface.co/microsoft/phi-4/resolve/main/LICENSE",
+      "general.organization": "Microsoft",
+      "general.parameter_count": 14659507200,
+      "general.quantization_version": 2,
+      "general.size_label": "15B",
+      "general.tags": [
+        "phi",
+        "nlp",
+        "math",
+        "code",
+        "chat",
+        "conversational",
+        "text-generation"
+      ],
+      "general.type": "model",
+      "general.version": "4",
+      "phi3.attention.head_count": 40,
+      "phi3.attention.head_count_kv": 10,
+      "phi3.attention.layer_norm_rms_epsilon": 1e-05,
+      "phi3.attention.sliding_window": 131072,
+      "phi3.block_count": 40,
+      "phi3.context_length": 16384,
+      "phi3.embedding_length": 5120,
+      "phi3.feed_forward_length": 17920,
+      "phi3.rope.dimension_count": 128,
+      "phi3.rope.freq_base": 250000,
+      "phi3.rope.scaling.original_context_length": 16384,
+      "tokenizer.ggml.bos_token_id": 100257,
+      "tokenizer.ggml.eos_token_id": 100257,
+      "tokenizer.ggml.merges": [],
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.padding_token_id": 100257,
+      "tokenizer.ggml.pre": "dbrx",
+      "tokenizer.ggml.token_type": [],
+      "tokenizer.ggml.tokens": []
+    }
+  },
+  "server_version": {
+    "version": "0.40.13"
+  }
+}
