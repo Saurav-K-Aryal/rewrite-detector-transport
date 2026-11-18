@@ -2,7 +2,7 @@
   "checked_date": "2026-11-18",
   "scope": "Targeted literature check, not a systematic review or priority certification.",
   "openalex": {
-    "cached_search_audit": "../docs/literature/openalex_prior_audit.json",
+    "cached_search_audit": "work/topic12_literature/claim_audit.json",
     "cached_query_count": 17,
     "new_connector_attempt": "UNAUTHORIZED: app requires reauthentication",
     "new_direct_attempt": {
@@ -81,8 +81,8 @@
     }
   ],
   "data": {
-    "run": "20261118T030136Z_full",
-    "independent_audit": "../results/reference/summary.json",
+    "run": "outputs/pilot_extensions/runs/20261118T030136Z_full",
+    "independent_audit": "work/extension_results_review/topic12_audit.json",
     "counts": {
       "generation_calls": 6750,
       "texts": 8700,
@@ -107,6 +107,13 @@
   ],
   "files_sha256": {
     "body.tex": "507db400f782b4aedb799f34ea0a53abf26ec756fbdf0f5eabfd0fddf786a9c7",
+    "abstract.tex": "0d22f3f639ad79c8bfc42841c1bf0b8cb3210f77218b50fbd23f3209a9e20d8c",
+    "references.bib": "bc2efd8c3e7c253f097922c10b63396f60c7dc6665b0b18ccfae2f890c685afd"
+  },
+  "public_repository": "https://github.com/Saurav-K-Aryal/rewrite-detector-transport",
+  "manuscript_source_sha256": {
+    "main.tex": "d38ceb3a5f6d7ae0ff5dcff2a2e9cb10a56222970bcfdd6226a0039dda09018a",
+    "body.tex": "d1808bb56d1a11482512569b3937e908d2800e75c3f7c7c11a463cb262250839",
     "abstract.tex": "0d22f3f639ad79c8bfc42841c1bf0b8cb3210f77218b50fbd23f3209a9e20d8c",
     "references.bib": "bc2efd8c3e7c253f097922c10b63396f60c7dc6665b0b18ccfae2f890c685afd"
   }
