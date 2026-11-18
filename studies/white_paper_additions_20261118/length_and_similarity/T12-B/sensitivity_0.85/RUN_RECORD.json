@@ -1,0 +1,15 @@
+{
+  "completed_utc": "2026-11-18T19:53:09.703593+00:00",
+  "elapsed_seconds": 0.5616452090034727,
+  "protocol_sha256": "66fd68908160117d217b3ab84010c5820891386e663df815b499ce2c7befdee3",
+  "scores_sha256": "612ea029be4725287e26208c2be5e729f564101c8d72889b30446d612a051a2b",
+  "embedding_ledger_sha256": "b82be9c1f40e2ebd6620303c3726af6708e9d4df4162e33ac7b6b4dff6b68a11",
+  "status": "complete",
+  "host": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "logical_cpus": 18
+  },
+  "human_status": "pending"
+}

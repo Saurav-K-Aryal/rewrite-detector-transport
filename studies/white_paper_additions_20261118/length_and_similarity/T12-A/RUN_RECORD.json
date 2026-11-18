@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-11-18T19:27:00.608876+00:00",
+  "elapsed_seconds": 0.3574842079979135,
+  "protocol_sha256": "66fd68908160117d217b3ab84010c5820891386e663df815b499ce2c7befdee3",
+  "historical_scores_sha256": "612ea029be4725287e26208c2be5e729f564101c8d72889b30446d612a051a2b",
+  "new_model_calls": 0,
+  "host": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "logical_cpus": 18
+  },
+  "status": "complete",
+  "reused_detector_provenance": {
+    "file": "PROJECT_ROOT/outputs/white_paper_additions/topic12/T12-A/REUSED_DETECTOR_PROVENANCE.json",
+    "sha256": "b5724ba601e753b8c8604c8e2956428f32eb930629552c01cc6319bcca2e3d94",
+    "original_analysis_record_sha256": "389ede32243c276449161f1d8dcf47bb48b4162754a85ff4f891496e29e04c1f",
+    "metadata_enrichment_only": true
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "created_utc": "2026-11-18T19:54:04.877408+00:00",
+  "status": "staged for review, not uploaded",
+  "original_protocol_sha256": "66fd68908160117d217b3ab84010c5820891386e663df815b499ce2c7befdee3",
+  "allowlist": [
+    {
+      "file": "run_topic12.py",
+      "original_local_sha256": "1d32ef8403e14449768be64c0556839fa44bd14067e93ba89da5945a28384419",
+      "public_sha256": "1d32ef8403e14449768be64c0556839fa44bd14067e93ba89da5945a28384419",
+      "path_redacted": false
+    },
+    {
+      "file": "optional_phi.py",
+      "original_local_sha256": "18db40747dc01a5f26808b4a60e14f1360d07cba797145010bfcc00dd55d3169",
+      "public_sha256": "18db40747dc01a5f26808b4a60e14f1360d07cba797145010bfcc00dd55d3169",
+      "path_redacted": false
+    },
+    {
+      "file": "finalize_results.py",
+      "original_local_sha256": "dd7ea78af903f875c597d10603ff3e4347fb4ab9a4412db1b002b2415621a6ae",
+      "public_sha256": "dd7ea78af903f875c597d10603ff3e4347fb4ab9a4412db1b002b2415621a6ae",
+      "path_redacted": false
+    },
+    {
+      "file": "add_detector_provenance.py",
+      "original_local_sha256": "ced23e1578272d23b34d8ed9d23a347898e6bd556967f79d8232e8f172596feb",
+      "public_sha256": "ced23e1578272d23b34d8ed9d23a347898e6bd556967f79d8232e8f172596feb",
+      "path_redacted": false
+    },
+    {
+      "file": "PROTOCOL.json",
+      "original_local_sha256": "66fd68908160117d217b3ab84010c5820891386e663df815b499ce2c7befdee3",
+      "public_sha256": "97c6c4b900ad8f4e7019a0570f1cb82ca8e98d7ff187245cb3c5e04acef6b37c",
+      "path_redacted": true
+    },
+    {
+      "file": "T12-A/RESULT.txt",
+      "original_local_sha256": "704f48a7627df59217910b70c0b44c903b0145682e804ad62e5ea4cce80d2f69",
+      "public_sha256": "42ad29578d1b2d99bee904c1a5b2d9526a5be3a082ca910000aa9c63ad1a7829",
+      "path_redacted": true
+    },
+    {
+      "file": "T12-A/metrics.json",
+      "original_local_sha256": "d8895ac08c51afe8b21a35fe03e30217dab96e37c92683abe47df99a358f1eb3",
+      "public_sha256": "d8895ac08c51afe8b21a35fe03e30217dab96e37c92683abe47df99a358f1eb3",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-A/cell_metrics.csv",
+      "original_local_sha256": "b3173d8e041d0966a3d5fd058c6f8c9171e9bca46e049404ea2737907d5bbeec",
+      "public_sha256": "7e66e94c083aaddbb4379fd79384dcfb6f0e687e1f690560b288e88e58267649",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-A/paired_metrics.csv",
+      "original_local_sha256": "34e9586d902bc6fc0e20948e1c867d7a88bdc7d3ce65aeb968b52be58bb9c26d",
+      "public_sha256": "c48accf150071ff55060fc11d4e64589de26d4ed36d2a44cd0cdb86e26dbea01",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-A/RUN_RECORD.json",
+      "original_local_sha256": "35d82efdab6ec7e9d79f2fe03c982681415ff5021c32996cfbb161ad9068aeaa",
+      "public_sha256": "a307d739247a1db36e52b2e250865e0b64cad7cdd77a78055ee58648cf5500a9",
+      "path_redacted": true
+    },
+    {
+      "file": "T12-A/REUSED_DETECTOR_PROVENANCE.json",
+      "original_local_sha256": "b5724ba601e753b8c8604c8e2956428f32eb930629552c01cc6319bcca2e3d94",
+      "public_sha256": "b5724ba601e753b8c8604c8e2956428f32eb930629552c01cc6319bcca2e3d94",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/RESULT.txt",
+      "original_local_sha256": "e55b5459b16db8c17464bef56c036c2520227d2c7d86cae71c759630969165f0",
+      "public_sha256": "79407a71dd45076841d0bad980580b0d2a1acfe155aa0aacbcd596ef25c083cc",
+      "path_redacted": true
+    },
+    {
+      "file": "T12-B/metrics.json",
+      "original_local_sha256": "8cea6f6bf99b2901b0c2257f00a329ba6358f8613eb1cc922f3bd48a5df82bc9",
+      "public_sha256": "8cea6f6bf99b2901b0c2257f00a329ba6358f8613eb1cc922f3bd48a5df82bc9",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/cell_metrics.csv",
+      "original_local_sha256": "87abd67b9cc76e26465154b6005d46b1dd3602c6d607e65a99a818591ad01098",
+      "public_sha256": "42aee45410708045b0c85fb233ff2ccbbed432be3c9b757d84424c004f7199b3",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/paired_metrics.csv",
+      "original_local_sha256": "fdc60bf958b66322a4e9d6b14bdec7d519715c35fb3fe08660dd8c4caea589d2",
+      "public_sha256": "52a86e8b613169b2ef1db9d91f01c01b1622c53698c41a1cdd4a1dc14fd10a42",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/RUN_RECORD.json",
+      "original_local_sha256": "db5b7aca89ae1aaf317d105c3d8e5389d8abb62332064678b9b3f6ff8c2727cb",
+      "public_sha256": "84ff77299014dc29c30f708ba18a7eca3ff6881ed6c77db594e109462ab16e21",
+      "path_redacted": true
+    },
+    {
+      "file": "T12-B/REUSED_DETECTOR_PROVENANCE.json",
+      "original_local_sha256": "93e3ff31a64fb33cf69555763257909a113d7da0ed02951e15dac6d547b85abb",
+      "public_sha256": "93e3ff31a64fb33cf69555763257909a113d7da0ed02951e15dac6d547b85abb",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/threshold_sensitivity.json",
+      "original_local_sha256": "441d3891fd4df0d80773670185f9cc9a9acf51e060723787f1195c7cd581b43e",
+      "public_sha256": "441d3891fd4df0d80773670185f9cc9a9acf51e060723787f1195c7cd581b43e",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/EMBEDDING_PROFILE.json",
+      "original_local_sha256": "7e1be489c960cf6408429c77f3a24cd9f65c16aeadb1f5246bbc2d79b3a5dc0e",
+      "public_sha256": "7e1be489c960cf6408429c77f3a24cd9f65c16aeadb1f5246bbc2d79b3a5dc0e",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/EMBEDDING_RUN.json",
+      "original_local_sha256": "b10030de23408385e0742fdd1c889397dea8f3768d0314b8f5bab5f60933df4c",
+      "public_sha256": "b10030de23408385e0742fdd1c889397dea8f3768d0314b8f5bab5f60933df4c",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/PRE_PROFILE_MODEL_CHECK.json",
+      "original_local_sha256": "a929a245e5dca733326ac6f7e5f9101101b6e75d3babc6c851fa2d1ed1a37333",
+      "public_sha256": "a929a245e5dca733326ac6f7e5f9101101b6e75d3babc6c851fa2d1ed1a37333",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/sensitivity_0.85/RESULT.txt",
+      "original_local_sha256": "65c391607623ae63befcb54d9e3089b4e3e2a11f91f8fbfd700b88322a8a400a",
+      "public_sha256": "26f21e2cd979b0b31eb12986b913efaaefffe5a7eed1a5a384558a35b49e58ff",
+      "path_redacted": true
+    },
+    {
+      "file": "T12-B/sensitivity_0.85/metrics.json",
+      "original_local_sha256": "7139bdeec9c77cd6809eb3ea9c3fddf2aca26699007740c07eb31fc7ec7f8032",
+      "public_sha256": "7139bdeec9c77cd6809eb3ea9c3fddf2aca26699007740c07eb31fc7ec7f8032",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/sensitivity_0.85/cell_metrics.csv",
+      "original_local_sha256": "b3173d8e041d0966a3d5fd058c6f8c9171e9bca46e049404ea2737907d5bbeec",
+      "public_sha256": "7e66e94c083aaddbb4379fd79384dcfb6f0e687e1f690560b288e88e58267649",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/sensitivity_0.85/paired_metrics.csv",
+      "original_local_sha256": "34e9586d902bc6fc0e20948e1c867d7a88bdc7d3ce65aeb968b52be58bb9c26d",
+      "public_sha256": "c48accf150071ff55060fc11d4e64589de26d4ed36d2a44cd0cdb86e26dbea01",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/sensitivity_0.85/RUN_RECORD.json",
+      "original_local_sha256": "dc6ad3cfb980ab3c8f94319faab024dfe6894029dda942273944f5f5888b4aa8",
+      "public_sha256": "dc6ad3cfb980ab3c8f94319faab024dfe6894029dda942273944f5f5888b4aa8",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/sensitivity_0.95/RESULT.txt",
+      "original_local_sha256": "7eccd87b2216b327c42dc1e05c46aac0b0415a750b5aa6d81ca3d0ca890c392c",
+      "public_sha256": "090c18a794948c61f093760d27676440d268211e53cfeee70ba9e95b3fa880ff",
+      "path_redacted": true
+    },
+    {
+      "file": "T12-B/sensitivity_0.95/metrics.json",
+      "original_local_sha256": "9c3643c5dc5d45e66598c22a707c4c23cdedcb5fcb2601fee4ed88b9a2416dc8",
+      "public_sha256": "9c3643c5dc5d45e66598c22a707c4c23cdedcb5fcb2601fee4ed88b9a2416dc8",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/sensitivity_0.95/cell_metrics.csv",
+      "original_local_sha256": "e605e5bb841dc1c1bb2762eba773ea27a733585f84c375b88ceee1c6ee19ab64",
+      "public_sha256": "5e7aa1d5f82be9cd58881fe69dd663ad3c7bcb736572b2d35e308c264ce91514",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/sensitivity_0.95/paired_metrics.csv",
+      "original_local_sha256": "7ffe202406c9b180bb857fa334ac99b43109e9b698708b31d8fb262489513ad5",
+      "public_sha256": "a62a29976f32ff1b936584a4dc79768ad248dbff0ed68af2f118640905c44227",
+      "path_redacted": false
+    },
+    {
+      "file": "T12-B/sensitivity_0.95/RUN_RECORD.json",
+      "original_local_sha256": "4efb52a125a4b10406fe3553b695619866c1805fa193c3096615d03478270e03",
+      "public_sha256": "4efb52a125a4b10406fe3553b695619866c1805fa193c3096615d03478270e03",
+      "path_redacted": false
+    }
+  ],
+  "excluded_private_material": true,
+  "numerical_results_unchanged": true
+}

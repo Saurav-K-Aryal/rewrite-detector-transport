@@ -1,0 +1,448 @@
+T12-A
+
+Frozen protocol
+
+PROJECT_ROOT/outputs/white_paper_additions/topic12/PROTOCOL.json
+
+Paste ready text
+
+Restricting analyses to complete texts of 100 to 128 words retained lower rewrite flag rates in 5 of six detector comparisons under conservative simultaneous paired intervals. The estimates reuse the historical panel and describe detector sensitivity after rewriting. They do not establish meaning preservation or a universal failure of detection.
+
+Four row table
+
+| Cohort | Binoculars | Fast DetectGPT | RADAR |
+|---|---|---|---|
+| Human controls | 2.8% (42/1498) [2.1, 3.8] | 2.5% (37/1498) [1.8, 3.4] | 0.0% (0/1498) [0.0, 0.3] |
+| Gemma direct | 56.7% (255/450) [52.1, 61.2] | 58.4% (263/450) [53.8, 62.9] | 5.8% (26/450) [4.0, 8.3] |
+| Gemma to Qwen | 4.3% (16/368) [2.7, 6.9] | 6.2% (23/368) [4.2, 9.2] | 0.8% (3/368) [0.3, 2.4] |
+| Gemma to Gemma | 9.7% (43/442) [7.3, 12.8] | 11.5% (51/442) [8.9, 14.9] | 3.4% (15/442) [2.1, 5.5] |
+
+Each cell gives confirmed flags, denominator and a descriptive 95% Wilson interval. Percentages inside brackets are percentages. Human and direct rows are reference cohorts. Each rewrite comparison uses its own eligible parent pairs.
+
+Paired retention and drop
+
+Gemma to Qwen with Binoculars retained 7.5% (16/212) [4.7, 11.9]. Parent minus rewrite flag rate was 53.3 percentage points over 368 pairs, with a conservative 95% interval [46.1, 59.2] and simultaneous six comparison interval [44.0, 60.7].
+Gemma to Qwen with Fast DetectGPT retained 10.4% (23/221) [7.0, 15.1]. Parent minus rewrite flag rate was 53.8 percentage points over 368 pairs, with a conservative 95% interval [46.6, 59.7] and simultaneous six comparison interval [44.5, 61.3].
+Gemma to Qwen with RADAR retained 13.6% (3/22) [4.7, 33.3]. Parent minus rewrite flag rate was 5.2 percentage points over 368 pairs, with a conservative 95% interval [1.7, 8.4] and simultaneous six comparison interval [0.8, 9.4].
+Gemma to Gemma with Binoculars retained 16.7% (42/252) [12.6, 21.8]. Parent minus rewrite flag rate was 47.3 percentage points over 442 pairs, with a conservative 95% interval [40.7, 52.9] and simultaneous six comparison interval [38.8, 54.4].
+Gemma to Gemma with Fast DetectGPT retained 18.5% (48/260) [14.2, 23.6]. Parent minus rewrite flag rate was 47.3 percentage points over 442 pairs, with a conservative 95% interval [40.4, 53.3] and simultaneous six comparison interval [38.4, 54.8].
+Gemma to Gemma with RADAR retained 48.0% (12/25) [30.0, 66.5]. Parent minus rewrite flag rate was 2.3 percentage points over 442 pairs, with a conservative 95% interval [-0.8, 5.2] and simultaneous six comparison interval [-1.6, 6.0].
+
+Exclusions and missing outcomes
+
+{
+  "cross / eligible": 368,
+  "cross / length_outside_100_128": 82,
+  "direct / eligible": 450,
+  "human / eligible": 1498,
+  "human / length_outside_100_128": 2,
+  "self / eligible": 442,
+  "self / length_outside_100_128": 8
+}
+
+Limits and what is not established
+
+This is a retrospective sensitivity analysis on reused questions and known historical aggregate results. Wilson intervals are descriptive. Length exclusions and unavailable outcomes remain in the accounting file. Fixed detector thresholds do not guarantee the original calibration rate on these sources. This does not establish factual correctness, human authorship, universal nonidentifiability, or independence by author.
+
+Run record
+
+PROJECT_ROOT/outputs/white_paper_additions/topic12/T12-A/RUN_RECORD.json
+
+Full frozen protocol and run record
+
+{
+  "version": "topic12-additions-1",
+  "frozen_utc": "2026-11-18T19:26:59.857866+00:00",
+  "seed": 20261118012,
+  "study_type": "Retrospective sensitivity analyses of reused historical detector scores. Aggregate historical outcomes were already known. This is not an independent confirmatory replication.",
+  "source_run": "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12",
+  "input_sha256": {
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/records.jsonl": "d467f1be34bbfe26b0f1a49b98918b030ba75bb31a1c74696d4f306c79ce4b10",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/scores.jsonl": "612ea029be4725287e26208c2be5e729f564101c8d72889b30446d612a051a2b",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/fullplanned_manifest.jsonl": "12c30d146dd508f73f09444864adfba63d86cbb0ce2c3eddb621df535f2bac71",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/protocol.json": "c1a4c0afc856e05a3a98ac5605573c3f88c6128f5db4f8f9d44a5d29c434435f",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/SCORING_LOCK.json": "b581520d176edba282f8cbfe50a27a97910d59c83b2ca06674fbf1bbb830778a",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/SCORES_COMPLETE.json": "50b10d8067af9b894891fce4491fa632e44eb3b38848d13eac56fd5edbdb11ce",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/RADAR_CALIBRATION.json": "ccd42fd8dd38c15fe7f0b6d0f5b654c9bb957b49de4fbc1af7e6ddfcfe196874",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/ANALYSIS_PLAN.json": "10f0dc8c3b3d53b3226916252c1abd68b678d6ea4f77608f0345fab7200d0ed3",
+    "PROJECT_ROOT/outputs/github_repos/rewrite-detector-transport/data/thresholds.json": "1612c279ca422c81a88fe5b5b404a635db585110312a6b7813e3598ff44af43e",
+    "PROJECT_ROOT/outputs/white_paper_additions/DECISIONS.json": "d260c76768f8f6e6ea00e0cf920210f22d19f39e26b128ef8fefbcaeab86fc51",
+    "PROJECT_ROOT/outputs/white_paper_additions/INPUT_PROVENANCE.json": "be773e0cc84bd2f4b43fbda9864b901d626d4f218ad2947df0d86f338935bbf3"
+  },
+  "code_sha256": "1d32ef8403e14449768be64c0556839fa44bd14067e93ba89da5945a28384419",
+  "A": {
+    "length_words": [
+      100,
+      128
+    ],
+    "unit": "whitespace separated words",
+    "completion": "Generated parent and child must both be completed, done true, and not truncated. Public human controls use their observed public human status.",
+    "detectors": [
+      "binoculars",
+      "fastdetectgpt",
+      "radar"
+    ],
+    "thresholds": "Original locked thresholds, no recalibration",
+    "table": "Four rows with descriptive Wilson intervals conditional on length and valid completion. Missing scores remain explicit unknowns in the denominator.",
+    "paired": "Each rewrite is paired to its own direct Gemma parent. Retention denominator is eligible scored pairs whose parent was flagged. Drop is parent minus child rate on the same eligible paired panel.",
+    "drop_interval": "Difference of two Clopper Pearson discordance intervals with union bound. Six contrast simultaneous intervals also reported. No new confirmatory claims."
+  },
+  "B": {
+    "model": "bge-m3:latest",
+    "backend": "Ollama /api/embed local only",
+    "cosine_primary": 0.9,
+    "cosine_sensitivity": [
+      0.85,
+      0.95
+    ],
+    "similarity_label": "Unvalidated embedding proxy for fidelity to the parent, not human validated semantic preservation or factual correctness",
+    "text": "Whole eligible text, at most 128 words. No detector outcomes used for embedding selection or threshold selection.",
+    "eligibility": "A eligibility plus available embedding similarity at or above the fixed threshold for each rewrite pair. Human and direct reference rows remain A reference rows, with paired comparisons restricted separately to each selected rewrite arm.",
+    "missing": "Embedding errors remain in the attempted ledger and all planned accounting. Conditional proxy rates are not all planned success rates.",
+    "batch_size": 8,
+    "timeout_seconds": 120,
+    "max_retries": 0,
+    "development_profile": "Two batches of eight synthetic paragraphs, lengths 100 and 128 words. No evaluation text or detector outcomes used. First batch includes model startup.",
+    "embedding_wall_budget_seconds": 14400,
+    "human_unique_pairs": 80,
+    "human_cross_pairs": 40,
+    "human_self_pairs": 40,
+    "human_distinct_qids": 80,
+    "human_shared_pairs": 20,
+    "ratings_per_rater": 50,
+    "primary_per_rater": 40,
+    "secondary_per_rater": 10,
+    "sampling": "Source stratified seeded sampling of length and completion eligible pairs, independent of similarity and detector outcomes. At most one selected pair per qid across arms. Primary rater assignments frozen before ratings.",
+    "rating_scale": {
+      "0": "Material meaning changed",
+      "1": "Uncertain or partly preserved",
+      "2": "All material meaning preserved"
+    },
+    "preserved": "Rating 2 only on preassigned primary ratings. No adjudication or cherry picking.",
+    "agreement": "Exact agreement, Wilson interval, and unweighted Cohen kappa on 20 double coded pairs. Seeded percentile bootstrap for kappa is descriptive; undefined kappa reported as unavailable.",
+    "human_status": "No human observations exist until two actual completed files are imported. This small retrospective sample does not unlock the historical 900 pair confirmatory endpoint."
+  },
+  "known_limits": [
+    "Sources and questions are reused; question separation does not prove author independence.",
+    "Three fixed detector implementations do not establish a universal impossibility result.",
+    "The similarity cutoffs are frozen assumptions without independent fidelity calibration."
+  ],
+  "host": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "logical_cpus": 18
+  }
+}
+
+{
+  "completed_utc": "2026-11-18T19:27:00.608876+00:00",
+  "elapsed_seconds": 0.3574842079979135,
+  "protocol_sha256": "66fd68908160117d217b3ab84010c5820891386e663df815b499ce2c7befdee3",
+  "historical_scores_sha256": "612ea029be4725287e26208c2be5e729f564101c8d72889b30446d612a051a2b",
+  "new_model_calls": 0,
+  "host": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "logical_cpus": 18
+  },
+  "status": "complete",
+  "reused_detector_provenance": {
+    "file": "PROJECT_ROOT/outputs/white_paper_additions/topic12/T12-A/REUSED_DETECTOR_PROVENANCE.json",
+    "sha256": "b5724ba601e753b8c8604c8e2956428f32eb930629552c01cc6319bcca2e3d94",
+    "original_analysis_record_sha256": "389ede32243c276449161f1d8dcf47bb48b4162754a85ff4f891496e29e04c1f",
+    "metadata_enrichment_only": true
+  }
+}
+
+Reused historical detector provenance
+
+{
+  "assembled_utc": "2026-11-18T19:43:40.228151+00:00",
+  "purpose": "Self contained documentation of reused historical scores. No new detector inference, fitting, precision change, or calibration.",
+  "sources": {
+    "historical_run_config": {
+      "file": "outputs/pilot_extensions/runs/20261118T030136Z_full/RUN_CONFIG.json",
+      "sha256": "4253253c8feca18cefaa55f0152ae58fb0e11de29fd685b757f2c698d24a6d34"
+    },
+    "historical_environment": {
+      "file": "outputs/pilot_extensions/runs/20261118T030136Z_full/ENVIRONMENT.json",
+      "sha256": "ca227b9bb5c890c1aeaa273508f7d457c9ab5e964e54c48d1b83860f85e9e783"
+    },
+    "scorer_metadata": {
+      "file": "outputs/pretrained_detectors_v2/runs/20261118T013958Z_published_v2/SCORER_METADATA.json",
+      "sha256": "7c3145c95faa435dafcd8e7025d6784923a6f07db5544483ac77f5f7f4c78bc7"
+    },
+    "falcon_install": {
+      "file": "outputs/pretrained_detectors_v2/MODEL_INSTALL.json",
+      "sha256": "fac6ec7fb1ea5976234cd693f7c0d18d9c0841f1baed41fb645a992d4ce702fd"
+    },
+    "extension_scoring_lock": {
+      "file": "outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/SCORING_LOCK.json",
+      "sha256": "b581520d176edba282f8cbfe50a27a97910d59c83b2ca06674fbf1bbb830778a"
+    },
+    "extension_scoring_status": {
+      "file": "outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/SCORING_STATUS.json",
+      "sha256": "dd6f6a9cfb693486b87248cd2971dc233fc21f354a51a42f91f9ab9d47cdad95"
+    },
+    "extension_scores_complete": {
+      "file": "outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/SCORES_COMPLETE.json",
+      "sha256": "50b10d8067af9b894891fce4491fa632e44eb3b38848d13eac56fd5edbdb11ce"
+    },
+    "radar_calibration": {
+      "file": "outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/RADAR_CALIBRATION.json",
+      "sha256": "ccd42fd8dd38c15fe7f0b6d0f5b654c9bb957b49de4fbc1af7e6ddfcfe196874"
+    },
+    "thresholds": {
+      "file": "outputs/github_repos/rewrite-detector-transport/data/thresholds.json",
+      "sha256": "1612c279ca422c81a88fe5b5b404a635db585110312a6b7813e3598ff44af43e"
+    }
+  },
+  "original_scores": {
+    "scores_sha256": "612ea029be4725287e26208c2be5e729f564101c8d72889b30446d612a051a2b",
+    "score_rows": 60900,
+    "status": "complete"
+  },
+  "original_scoring_status": {
+    "status": "complete",
+    "planned_records": 8700,
+    "mandatory_panel": [
+      "word_tfidf",
+      "char_tfidf",
+      "length_style",
+      "historical_word",
+      "binoculars",
+      "fastdetectgpt"
+    ],
+    "optional_radar_status": "calibrated",
+    "score_rows": 60900,
+    "elapsed_seconds": 2152.194798291006,
+    "errors": [],
+    "counts_by_status": {
+      "scored": 60900
+    }
+  },
+  "historical_environment": {
+    "started_utc": "2026-11-18T03:01:36.280606+00:00",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "pid": 43137
+  },
+  "historical_package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.9.1",
+    "transformers": "4.57.1",
+    "huggingface_hub": "0.36.0"
+  },
+  "detector_device": "mps",
+  "scorer_metadata": {
+    "version": "published-falcon-mps-v2",
+    "models": {
+      "observer": {
+        "repo": "tiiuae/falcon-7b",
+        "revision": "ec89142b67d748a1865ea4451372db8313ada0d8"
+      },
+      "performer": {
+        "repo": "tiiuae/falcon-7b-instruct",
+        "revision": "8782b5c5d8c9290412416618f36a133653e85285"
+      }
+    },
+    "device": "mps",
+    "forward_dtype": "torch.bfloat16",
+    "reduction_dtype": "torch.float32",
+    "reduction_device": "cpu",
+    "max_tokens": 512,
+    "batch_size": 1,
+    "attention": "eager",
+    "plain_text": true,
+    "chat_template": false,
+    "remote_code": false,
+    "torch_version": "2.9.1",
+    "transformers_version": "4.57.1",
+    "tokenizer_vocab_sha256": "3507fe912c0eb0306e00e6b91442347a4c701597811f42ec20b136585f58ae94",
+    "adaptation": "Native Transformers Falcon on Apple MPS; float32 CPU reductions. Production invokes unchanged pinned published functions directly, preserving their reduction layouts. Model precision/backend may change numeric values.",
+    "technical_amendment": "v2 corrects Binoculars numerator reduction layout after failed execution smoke; original failed record is preserved. No model, input, threshold, precision or hypothesis changes."
+  },
+  "metadata_scope": "The reference run records Falcon dtypes and backend; the extension configuration independently records identical package versions and MPS device, and its scoring lock pins the unchanged scorer source.",
+  "falcon_models_and_verified_weight_hashes": {
+    "observer": {
+      "repo": "tiiuae/falcon-7b",
+      "revision": "ec89142b67d748a1865ea4451372db8313ada0d8",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "name": "README.md",
+          "bytes": 10348
+        },
+        {
+          "name": "config.json",
+          "bytes": 1048
+        },
+        {
+          "name": "generation_config.json",
+          "bytes": 117
+        },
+        {
+          "name": "model-00001-of-00002.safetensors",
+          "bytes": 9950994832,
+          "sha256": "02ebbe9c76d5f574bbacc8193a21e08246905e05b8e66d21a3149fd0ead3a636",
+          "matches_publisher_lfs_sha256": true
+        },
+        {
+          "name": "model-00002-of-00002.safetensors",
+          "bytes": 4483408144,
+          "sha256": "b40ecba13b10a02a867975f8b6d76833e71987a49539d09e9d276ff9ef955a45",
+          "matches_publisher_lfs_sha256": true
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 17719
+        },
+        {
+          "name": "pytorch_model.bin.index.json",
+          "bytes": 16924
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 281
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 2734130
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 287
+        }
+      ]
+    },
+    "performer": {
+      "repo": "tiiuae/falcon-7b-instruct",
+      "revision": "8782b5c5d8c9290412416618f36a133653e85285",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "name": "README.md",
+          "bytes": 9852
+        },
+        {
+          "name": "config.json",
+          "bytes": 1048
+        },
+        {
+          "name": "generation_config.json",
+          "bytes": 117
+        },
+        {
+          "name": "model-00001-of-00002.safetensors",
+          "bytes": 9950994832,
+          "sha256": "b4515a8e32f81ab4fef65e10891fdb188bc45c4195620d447bc3263e132d9de5",
+          "matches_publisher_lfs_sha256": true
+        },
+        {
+          "name": "model-00002-of-00002.safetensors",
+          "bytes": 4483408144,
+          "sha256": "d68a175bf005c2dd7fdd9956227b5691802c8d5a5b03897ed107e591017b33ea",
+          "matches_publisher_lfs_sha256": true
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 17719
+        },
+        {
+          "name": "pytorch_model.bin.index.json",
+          "bytes": 16924
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 281
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 2734130
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 1132
+        }
+      ]
+    }
+  },
+  "published_detector_code_pins": {
+    "Binoculars": {
+      "url": "https://github.com/ahans30/Binoculars",
+      "commit": "c8ae2f90d50ee696418bc71d8d9e5020e5f9d7b8",
+      "license": "BSD-3-Clause"
+    },
+    "Fast-DetectGPT": {
+      "url": "https://github.com/baoguangsheng/fast-detect-gpt",
+      "commit": "971b05202bac2bb504d60c0ac0812fea7a8f7c82",
+      "license": "MIT"
+    }
+  },
+  "radar_install": {
+    "repo": "TrustSafeAI/RADAR-Vicuna-7B",
+    "revision": "4ff1f23a69a36aa1df47b0933be6279f1b896c9b",
+    "files": {
+      "README.md": {
+        "sha256": "37ef71defa9ce6be9ec16f21ca021748e82ca517de3d91a67d640de86475dd97",
+        "bytes": 2972
+      },
+      "config.json": {
+        "sha256": "b0c3b797790df0d4e7cb9482091b77daa362d7f8f52929b43c651c94f76384e1",
+        "bytes": 498
+      },
+      "merges.txt": {
+        "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+        "bytes": 456318
+      },
+      "pytorch_model.bin": {
+        "sha256": "4ea32c4a31b7004364df4fe672c5c763f3d5f32b7514aaeb2b5e47653bc89792",
+        "bytes": 1421627665
+      },
+      "tokenizer.json": {
+        "sha256": "847bbeab6174d66a88898f729d52fa8d355fafe1bea101cf960dd404581df70e",
+        "bytes": 1355863
+      },
+      "vocab.json": {
+        "sha256": "9e7f63c2d15d666b52e21d250d2e513b87c9b713cfa6987a82ed89e5e6e50655",
+        "bytes": 898823
+      }
+    },
+    "source_repository": "https://github.com/IBM/RADAR",
+    "source_commit": "3a9acf6d3d9b1766f5c6497af96601dea1ead868",
+    "official_readme_sha256": "84ccba5d6efdf5835f283a522e578c2f064cd1e4583bacbae9b4e80610d2c1e6",
+    "score_direction": "softmax(logits)[:,0], higher is AI",
+    "max_tokens": 512,
+    "remote_code": false,
+    "weights_only": true,
+    "model_license": "Model card states non-commercial use inherited from Vicuna-7B-v1.1; research use here. Source repository Apache-2.0 is not the model license.",
+    "calibration": "New human-only threshold; not the published benchmark threshold."
+  },
+  "radar_dtype_policy": "Saved loader specifies no torch_dtype override. Its scoring function casts logits to float32 for log softmax before moving the final probability to CPU. No separate forward dtype measurement was recorded.",
+  "thresholds": {
+    "binoculars": {
+      "direction": "less",
+      "cutoff": 0.8635380864143372
+    },
+    "fastdetectgpt": {
+      "direction": "greater",
+      "cutoff": 1.9734587669372559
+    },
+    "radar": {
+      "direction": "greater",
+      "cutoff": 0.9960119724273682
+    }
+  },
+  "radar_historical_calibration": {
+    "n": 500,
+    "rank": 476,
+    "threshold": 0.9960119724273682,
+    "calibration_source_sha256": "da26413fa42cc1d683310bf6c80f0e90a3f406cd97ac001e7c4af202156909f3"
+  },
+  "detector_input": "First 128 whitespace words. Falcon and RADAR tokenizer caps are 512 tokens. The reused score ledger is checked against the exact historical normalized text hash.",
+  "threshold_policy": "All operating points remain unchanged. The original 5 percent human calibration target is not a guaranteed false positive rate on this panel."
+}

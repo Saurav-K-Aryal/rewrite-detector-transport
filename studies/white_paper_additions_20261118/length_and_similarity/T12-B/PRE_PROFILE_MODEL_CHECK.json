@@ -1,0 +1,8 @@
+{
+  "checked_utc": "2026-11-18T19:52:28.272957+00:00",
+  "model_digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+  "backend_version": {
+    "version": "0.40.13"
+  },
+  "matches_global_pre_inference_provenance": true
+}

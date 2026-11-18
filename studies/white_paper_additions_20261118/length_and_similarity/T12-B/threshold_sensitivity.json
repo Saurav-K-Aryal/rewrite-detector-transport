@@ -1,0 +1,1226 @@
+{
+  "0.9": {
+    "cells": [
+      {
+        "cohort": "human",
+        "detector": "binoculars",
+        "flagged": 42,
+        "n": 1498,
+        "scored_n": 1498,
+        "unknown": 0,
+        "wilson95": [
+          0.020808853054691365,
+          0.037680315895053
+        ],
+        "rate_bounds_due_to_missing": [
+          0.028037383177570093,
+          0.028037383177570093
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "human",
+        "detector": "fastdetectgpt",
+        "flagged": 37,
+        "n": 1498,
+        "scored_n": 1498,
+        "unknown": 0,
+        "wilson95": [
+          0.017972102108808875,
+          0.03385857440069324
+        ],
+        "rate_bounds_due_to_missing": [
+          0.024699599465954607,
+          0.024699599465954607
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "human",
+        "detector": "radar",
+        "flagged": 0,
+        "n": 1498,
+        "scored_n": 1498,
+        "unknown": 0,
+        "wilson95": [
+          0.0,
+          0.002557832451709378
+        ],
+        "rate_bounds_due_to_missing": [
+          0.0,
+          0.0
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "direct",
+        "detector": "binoculars",
+        "flagged": 255,
+        "n": 450,
+        "scored_n": 450,
+        "unknown": 0,
+        "wilson95": [
+          0.5205087504413833,
+          0.6116960070435539
+        ],
+        "rate_bounds_due_to_missing": [
+          0.5666666666666667,
+          0.5666666666666667
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "direct",
+        "detector": "fastdetectgpt",
+        "flagged": 263,
+        "n": 450,
+        "scored_n": 450,
+        "unknown": 0,
+        "wilson95": [
+          0.5383839776730285,
+          0.6290753818078919
+        ],
+        "rate_bounds_due_to_missing": [
+          0.5844444444444444,
+          0.5844444444444444
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "direct",
+        "detector": "radar",
+        "flagged": 26,
+        "n": 450,
+        "scored_n": 450,
+        "unknown": 0,
+        "wilson95": [
+          0.03973088513498714,
+          0.08331089021492914
+        ],
+        "rate_bounds_due_to_missing": [
+          0.057777777777777775,
+          0.057777777777777775
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "cross",
+        "detector": "binoculars",
+        "flagged": 16,
+        "n": 366,
+        "scored_n": 366,
+        "unknown": 0,
+        "wilson95": [
+          0.02708514598730331,
+          0.0698251867130409
+        ],
+        "rate_bounds_due_to_missing": [
+          0.04371584699453552,
+          0.04371584699453552
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "cross",
+        "detector": "fastdetectgpt",
+        "flagged": 23,
+        "n": 366,
+        "scored_n": 366,
+        "unknown": 0,
+        "wilson95": [
+          0.04223621535521173,
+          0.09252817525589647
+        ],
+        "rate_bounds_due_to_missing": [
+          0.06284153005464481,
+          0.06284153005464481
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "cross",
+        "detector": "radar",
+        "flagged": 3,
+        "n": 366,
+        "scored_n": 366,
+        "unknown": 0,
+        "wilson95": [
+          0.002791462829898863,
+          0.023818476607597904
+        ],
+        "rate_bounds_due_to_missing": [
+          0.00819672131147541,
+          0.00819672131147541
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "self",
+        "detector": "binoculars",
+        "flagged": 43,
+        "n": 442,
+        "scored_n": 442,
+        "unknown": 0,
+        "wilson95": [
+          0.07302913040977754,
+          0.12848074948864177
+        ],
+        "rate_bounds_due_to_missing": [
+          0.09728506787330317,
+          0.09728506787330317
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "self",
+        "detector": "fastdetectgpt",
+        "flagged": 51,
+        "n": 442,
+        "scored_n": 442,
+        "unknown": 0,
+        "wilson95": [
+          0.08885819292084965,
+          0.1485388833866295
+        ],
+        "rate_bounds_due_to_missing": [
+          0.11538461538461539,
+          0.11538461538461539
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "self",
+        "detector": "radar",
+        "flagged": 15,
+        "n": 442,
+        "scored_n": 442,
+        "unknown": 0,
+        "wilson95": [
+          0.020672082669995734,
+          0.05523260979671424
+        ],
+        "rate_bounds_due_to_missing": [
+          0.033936651583710405,
+          0.033936651583710405
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      }
+    ],
+    "paired": [
+      {
+        "n_pairs": 366,
+        "parent_flagged": 211,
+        "child_flagged": 16,
+        "retained_flags": 16,
+        "retention_denominator": 211,
+        "retention_wilson95": [
+          0.047211934896606814,
+          0.11961554345619695
+        ],
+        "lost_flags": 195,
+        "gained_flags": 0,
+        "parent_minus_child_rate": 0.5327868852459017,
+        "paired_drop_interval95": [
+          0.4609798714710104,
+          0.5920154672020361
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.07582938388625593,
+          0.07582938388625593
+        ],
+        "cohort": "cross",
+        "detector": "binoculars",
+        "eligible_n": 366,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.43992925994901805,
+          0.607859254707198
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 366,
+        "parent_flagged": 221,
+        "child_flagged": 23,
+        "retained_flags": 23,
+        "retention_denominator": 221,
+        "retention_wilson95": [
+          0.07035474881505367,
+          0.1513190433855277
+        ],
+        "lost_flags": 198,
+        "gained_flags": 0,
+        "parent_minus_child_rate": 0.5409836065573771,
+        "paired_drop_interval95": [
+          0.4691623905554572,
+          0.6000570931335929
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.10407239819004525,
+          0.10407239819004525
+        ],
+        "cohort": "cross",
+        "detector": "fastdetectgpt",
+        "eligible_n": 366,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.4480833389795278,
+          0.6158339666189647
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 366,
+        "parent_flagged": 22,
+        "child_flagged": 3,
+        "retained_flags": 3,
+        "retention_denominator": 22,
+        "retention_wilson95": [
+          0.04749003714055253,
+          0.33334987166571717
+        ],
+        "lost_flags": 19,
+        "gained_flags": 0,
+        "parent_minus_child_rate": 0.05191256830601093,
+        "paired_drop_interval95": [
+          0.017338671130956437,
+          0.08416363649387378
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.13636363636363635,
+          0.13636363636363635
+        ],
+        "cohort": "cross",
+        "detector": "radar",
+        "eligible_n": 366,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.007827261309482345,
+          0.09411523830091353
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 442,
+        "parent_flagged": 252,
+        "child_flagged": 43,
+        "retained_flags": 42,
+        "retention_denominator": 252,
+        "retention_wilson95": [
+          0.12573185393825007,
+          0.21761147761403601
+        ],
+        "lost_flags": 210,
+        "gained_flags": 1,
+        "parent_minus_child_rate": 0.47285067873303166,
+        "paired_drop_interval95": [
+          0.40679520214663123,
+          0.5294784366137222
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "cohort": "self",
+        "detector": "binoculars",
+        "eligible_n": 442,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.38774048623937246,
+          0.5442634550397731
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 442,
+        "parent_flagged": 260,
+        "child_flagged": 51,
+        "retained_flags": 48,
+        "retention_denominator": 260,
+        "retention_wilson95": [
+          0.1421669110488659,
+          0.2362476840908088
+        ],
+        "lost_flags": 212,
+        "gained_flags": 3,
+        "parent_minus_child_rate": 0.47285067873303166,
+        "paired_drop_interval95": [
+          0.4037416223880391,
+          0.5329403858678141
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.18461538461538463,
+          0.18461538461538463
+        ],
+        "cohort": "self",
+        "detector": "fastdetectgpt",
+        "eligible_n": 442,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.3839127838636153,
+          0.5482009042184114
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 442,
+        "parent_flagged": 25,
+        "child_flagged": 15,
+        "retained_flags": 12,
+        "retention_denominator": 25,
+        "retention_wilson95": [
+          0.30031285954112974,
+          0.6650148304964322
+        ],
+        "lost_flags": 13,
+        "gained_flags": 3,
+        "parent_minus_child_rate": 0.02262443438914027,
+        "paired_drop_interval95": [
+          -0.007558340305757669,
+          0.05187023020497049
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.48,
+          0.48
+        ],
+        "cohort": "self",
+        "detector": "radar",
+        "eligible_n": 442,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          -0.015701822198501275,
+          0.05984558623711957
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      }
+    ]
+  },
+  "0.85": {
+    "cells": [
+      {
+        "cohort": "human",
+        "detector": "binoculars",
+        "flagged": 42,
+        "n": 1498,
+        "scored_n": 1498,
+        "unknown": 0,
+        "wilson95": [
+          0.020808853054691365,
+          0.037680315895053
+        ],
+        "rate_bounds_due_to_missing": [
+          0.028037383177570093,
+          0.028037383177570093
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "human",
+        "detector": "fastdetectgpt",
+        "flagged": 37,
+        "n": 1498,
+        "scored_n": 1498,
+        "unknown": 0,
+        "wilson95": [
+          0.017972102108808875,
+          0.03385857440069324
+        ],
+        "rate_bounds_due_to_missing": [
+          0.024699599465954607,
+          0.024699599465954607
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "human",
+        "detector": "radar",
+        "flagged": 0,
+        "n": 1498,
+        "scored_n": 1498,
+        "unknown": 0,
+        "wilson95": [
+          0.0,
+          0.002557832451709378
+        ],
+        "rate_bounds_due_to_missing": [
+          0.0,
+          0.0
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "direct",
+        "detector": "binoculars",
+        "flagged": 255,
+        "n": 450,
+        "scored_n": 450,
+        "unknown": 0,
+        "wilson95": [
+          0.5205087504413833,
+          0.6116960070435539
+        ],
+        "rate_bounds_due_to_missing": [
+          0.5666666666666667,
+          0.5666666666666667
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "direct",
+        "detector": "fastdetectgpt",
+        "flagged": 263,
+        "n": 450,
+        "scored_n": 450,
+        "unknown": 0,
+        "wilson95": [
+          0.5383839776730285,
+          0.6290753818078919
+        ],
+        "rate_bounds_due_to_missing": [
+          0.5844444444444444,
+          0.5844444444444444
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "direct",
+        "detector": "radar",
+        "flagged": 26,
+        "n": 450,
+        "scored_n": 450,
+        "unknown": 0,
+        "wilson95": [
+          0.03973088513498714,
+          0.08331089021492914
+        ],
+        "rate_bounds_due_to_missing": [
+          0.057777777777777775,
+          0.057777777777777775
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "cross",
+        "detector": "binoculars",
+        "flagged": 16,
+        "n": 368,
+        "scored_n": 368,
+        "unknown": 0,
+        "wilson95": [
+          0.026936980538540385,
+          0.06945210672022398
+        ],
+        "rate_bounds_due_to_missing": [
+          0.043478260869565216,
+          0.043478260869565216
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "cross",
+        "detector": "fastdetectgpt",
+        "flagged": 23,
+        "n": 368,
+        "scored_n": 368,
+        "unknown": 0,
+        "wilson95": [
+          0.04200467953351182,
+          0.09203486242280405
+        ],
+        "rate_bounds_due_to_missing": [
+          0.0625,
+          0.0625
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "cross",
+        "detector": "radar",
+        "flagged": 3,
+        "n": 368,
+        "scored_n": 368,
+        "unknown": 0,
+        "wilson95": [
+          0.0027762710309002375,
+          0.023690543218125665
+        ],
+        "rate_bounds_due_to_missing": [
+          0.008152173913043478,
+          0.008152173913043478
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "self",
+        "detector": "binoculars",
+        "flagged": 43,
+        "n": 442,
+        "scored_n": 442,
+        "unknown": 0,
+        "wilson95": [
+          0.07302913040977754,
+          0.12848074948864177
+        ],
+        "rate_bounds_due_to_missing": [
+          0.09728506787330317,
+          0.09728506787330317
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "self",
+        "detector": "fastdetectgpt",
+        "flagged": 51,
+        "n": 442,
+        "scored_n": 442,
+        "unknown": 0,
+        "wilson95": [
+          0.08885819292084965,
+          0.1485388833866295
+        ],
+        "rate_bounds_due_to_missing": [
+          0.11538461538461539,
+          0.11538461538461539
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "self",
+        "detector": "radar",
+        "flagged": 15,
+        "n": 442,
+        "scored_n": 442,
+        "unknown": 0,
+        "wilson95": [
+          0.020672082669995734,
+          0.05523260979671424
+        ],
+        "rate_bounds_due_to_missing": [
+          0.033936651583710405,
+          0.033936651583710405
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      }
+    ],
+    "paired": [
+      {
+        "n_pairs": 368,
+        "parent_flagged": 212,
+        "child_flagged": 16,
+        "retained_flags": 16,
+        "retention_denominator": 212,
+        "retention_wilson95": [
+          0.04698665323110915,
+          0.11906790837407663
+        ],
+        "lost_flags": 196,
+        "gained_flags": 0,
+        "parent_minus_child_rate": 0.532608695652174,
+        "paired_drop_interval95": [
+          0.461032705228074,
+          0.5916779271953708
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.07547169811320754,
+          0.07547169811320754
+        ],
+        "cohort": "cross",
+        "detector": "binoculars",
+        "eligible_n": 368,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.4400519799467964,
+          0.6074818006302958
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 368,
+        "parent_flagged": 221,
+        "child_flagged": 23,
+        "retained_flags": 23,
+        "retention_denominator": 221,
+        "retention_wilson95": [
+          0.07035474881505367,
+          0.1513190433855277
+        ],
+        "lost_flags": 198,
+        "gained_flags": 0,
+        "parent_minus_child_rate": 0.5380434782608695,
+        "paired_drop_interval95": [
+          0.466456275334467,
+          0.5970122890479699
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.10407239819004525,
+          0.10407239819004525
+        ],
+        "cohort": "cross",
+        "detector": "fastdetectgpt",
+        "eligible_n": 368,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.4454562906504461,
+          0.6127725402032649
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 368,
+        "parent_flagged": 22,
+        "child_flagged": 3,
+        "retained_flags": 3,
+        "retention_denominator": 22,
+        "retention_wilson95": [
+          0.04749003714055253,
+          0.33334987166571717
+        ],
+        "lost_flags": 19,
+        "gained_flags": 0,
+        "parent_minus_child_rate": 0.051630434782608696,
+        "paired_drop_interval95": [
+          0.017242405489799027,
+          0.08371404106335312
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.13636363636363635,
+          0.13636363636363635
+        ],
+        "cohort": "cross",
+        "detector": "radar",
+        "eligible_n": 368,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.00778225437082165,
+          0.09361522436532574
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 442,
+        "parent_flagged": 252,
+        "child_flagged": 43,
+        "retained_flags": 42,
+        "retention_denominator": 252,
+        "retention_wilson95": [
+          0.12573185393825007,
+          0.21761147761403601
+        ],
+        "lost_flags": 210,
+        "gained_flags": 1,
+        "parent_minus_child_rate": 0.47285067873303166,
+        "paired_drop_interval95": [
+          0.40679520214663123,
+          0.5294784366137222
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "cohort": "self",
+        "detector": "binoculars",
+        "eligible_n": 442,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.38774048623937246,
+          0.5442634550397731
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 442,
+        "parent_flagged": 260,
+        "child_flagged": 51,
+        "retained_flags": 48,
+        "retention_denominator": 260,
+        "retention_wilson95": [
+          0.1421669110488659,
+          0.2362476840908088
+        ],
+        "lost_flags": 212,
+        "gained_flags": 3,
+        "parent_minus_child_rate": 0.47285067873303166,
+        "paired_drop_interval95": [
+          0.4037416223880391,
+          0.5329403858678141
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.18461538461538463,
+          0.18461538461538463
+        ],
+        "cohort": "self",
+        "detector": "fastdetectgpt",
+        "eligible_n": 442,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.3839127838636153,
+          0.5482009042184114
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 442,
+        "parent_flagged": 25,
+        "child_flagged": 15,
+        "retained_flags": 12,
+        "retention_denominator": 25,
+        "retention_wilson95": [
+          0.30031285954112974,
+          0.6650148304964322
+        ],
+        "lost_flags": 13,
+        "gained_flags": 3,
+        "parent_minus_child_rate": 0.02262443438914027,
+        "paired_drop_interval95": [
+          -0.007558340305757669,
+          0.05187023020497049
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.48,
+          0.48
+        ],
+        "cohort": "self",
+        "detector": "radar",
+        "eligible_n": 442,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          -0.015701822198501275,
+          0.05984558623711957
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      }
+    ]
+  },
+  "0.95": {
+    "cells": [
+      {
+        "cohort": "human",
+        "detector": "binoculars",
+        "flagged": 42,
+        "n": 1498,
+        "scored_n": 1498,
+        "unknown": 0,
+        "wilson95": [
+          0.020808853054691365,
+          0.037680315895053
+        ],
+        "rate_bounds_due_to_missing": [
+          0.028037383177570093,
+          0.028037383177570093
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "human",
+        "detector": "fastdetectgpt",
+        "flagged": 37,
+        "n": 1498,
+        "scored_n": 1498,
+        "unknown": 0,
+        "wilson95": [
+          0.017972102108808875,
+          0.03385857440069324
+        ],
+        "rate_bounds_due_to_missing": [
+          0.024699599465954607,
+          0.024699599465954607
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "human",
+        "detector": "radar",
+        "flagged": 0,
+        "n": 1498,
+        "scored_n": 1498,
+        "unknown": 0,
+        "wilson95": [
+          0.0,
+          0.002557832451709378
+        ],
+        "rate_bounds_due_to_missing": [
+          0.0,
+          0.0
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "direct",
+        "detector": "binoculars",
+        "flagged": 255,
+        "n": 450,
+        "scored_n": 450,
+        "unknown": 0,
+        "wilson95": [
+          0.5205087504413833,
+          0.6116960070435539
+        ],
+        "rate_bounds_due_to_missing": [
+          0.5666666666666667,
+          0.5666666666666667
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "direct",
+        "detector": "fastdetectgpt",
+        "flagged": 263,
+        "n": 450,
+        "scored_n": 450,
+        "unknown": 0,
+        "wilson95": [
+          0.5383839776730285,
+          0.6290753818078919
+        ],
+        "rate_bounds_due_to_missing": [
+          0.5844444444444444,
+          0.5844444444444444
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "direct",
+        "detector": "radar",
+        "flagged": 26,
+        "n": 450,
+        "scored_n": 450,
+        "unknown": 0,
+        "wilson95": [
+          0.03973088513498714,
+          0.08331089021492914
+        ],
+        "rate_bounds_due_to_missing": [
+          0.057777777777777775,
+          0.057777777777777775
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "cross",
+        "detector": "binoculars",
+        "flagged": 15,
+        "n": 324,
+        "scored_n": 324,
+        "unknown": 0,
+        "wilson95": [
+          0.028253995989094886,
+          0.07497107793056146
+        ],
+        "rate_bounds_due_to_missing": [
+          0.046296296296296294,
+          0.046296296296296294
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "cross",
+        "detector": "fastdetectgpt",
+        "flagged": 22,
+        "n": 324,
+        "scored_n": 324,
+        "unknown": 0,
+        "wilson95": [
+          0.0452652490129801,
+          0.10066339281526404
+        ],
+        "rate_bounds_due_to_missing": [
+          0.06790123456790123,
+          0.06790123456790123
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "cross",
+        "detector": "radar",
+        "flagged": 3,
+        "n": 324,
+        "scored_n": 324,
+        "unknown": 0,
+        "wilson95": [
+          0.0031538829844411885,
+          0.02686507452049323
+        ],
+        "rate_bounds_due_to_missing": [
+          0.009259259259259259,
+          0.009259259259259259
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "self",
+        "detector": "binoculars",
+        "flagged": 39,
+        "n": 411,
+        "scored_n": 411,
+        "unknown": 0,
+        "wilson95": [
+          0.07019215373539797,
+          0.12709154846098317
+        ],
+        "rate_bounds_due_to_missing": [
+          0.0948905109489051,
+          0.0948905109489051
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "self",
+        "detector": "fastdetectgpt",
+        "flagged": 46,
+        "n": 411,
+        "scored_n": 411,
+        "unknown": 0,
+        "wilson95": [
+          0.08496542151530238,
+          0.14606611302117084
+        ],
+        "rate_bounds_due_to_missing": [
+          0.11192214111922141,
+          0.11192214111922141
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      },
+      {
+        "cohort": "self",
+        "detector": "radar",
+        "flagged": 14,
+        "n": 411,
+        "scored_n": 411,
+        "unknown": 0,
+        "wilson95": [
+          0.02039733903683593,
+          0.05635839051635918
+        ],
+        "rate_bounds_due_to_missing": [
+          0.0340632603406326,
+          0.0340632603406326
+        ],
+        "denominator_note": "Missing scores counted in n as unknown; displayed flag fraction is confirmed flags only if any unknown exists."
+      }
+    ],
+    "paired": [
+      {
+        "n_pairs": 324,
+        "parent_flagged": 186,
+        "child_flagged": 15,
+        "retained_flags": 15,
+        "retention_denominator": 186,
+        "retention_wilson95": [
+          0.04947902100071179,
+          0.1287826665722724
+        ],
+        "lost_flags": 171,
+        "gained_flags": 0,
+        "parent_minus_child_rate": 0.5277777777777778,
+        "paired_drop_interval95": [
+          0.4506163544714659,
+          0.5908567113070122
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.08064516129032258,
+          0.08064516129032258
+        ],
+        "cohort": "cross",
+        "detector": "binoculars",
+        "eligible_n": 324,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.427973619836145,
+          0.6076939385884292
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 324,
+        "parent_flagged": 196,
+        "child_flagged": 22,
+        "retained_flags": 22,
+        "retention_denominator": 196,
+        "retention_wilson95": [
+          0.07530253387333503,
+          0.16409453169562394
+        ],
+        "lost_flags": 174,
+        "gained_flags": 0,
+        "parent_minus_child_rate": 0.5370370370370371,
+        "paired_drop_interval95": [
+          0.45984165544338745,
+          0.5999336415330978
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.11224489795918367,
+          0.11224489795918367
+        ],
+        "cohort": "cross",
+        "detector": "fastdetectgpt",
+        "eligible_n": 324,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.43715833600929355,
+          0.6166898690857684
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 324,
+        "parent_flagged": 18,
+        "child_flagged": 3,
+        "retained_flags": 3,
+        "retention_denominator": 18,
+        "retention_wilson95": [
+          0.05836576805861446,
+          0.39222038103915724
+        ],
+        "lost_flags": 15,
+        "gained_flags": 0,
+        "parent_minus_child_rate": 0.046296296296296294,
+        "paired_drop_interval95": [
+          0.010515011983118131,
+          0.07966997145403072
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "cohort": "cross",
+        "detector": "radar",
+        "eligible_n": 324,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.000675740135485204,
+          0.090089956433866
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 411,
+        "parent_flagged": 235,
+        "child_flagged": 39,
+        "retained_flags": 38,
+        "retention_denominator": 235,
+        "retention_wilson95": [
+          0.12013442190609522,
+          0.21415200899631212
+        ],
+        "lost_flags": 197,
+        "gained_flags": 1,
+        "parent_minus_child_rate": 0.4768856447688564,
+        "paired_drop_interval95": [
+          0.4078476924270288,
+          0.5357149245331903
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.16170212765957448,
+          0.16170212765957448
+        ],
+        "cohort": "self",
+        "detector": "binoculars",
+        "eligible_n": 411,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.38791010333441184,
+          0.5510228474575765
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 411,
+        "parent_flagged": 245,
+        "child_flagged": 46,
+        "retained_flags": 45,
+        "retention_denominator": 245,
+        "retention_wilson95": [
+          0.14019880598167506,
+          0.2369146351041722
+        ],
+        "lost_flags": 200,
+        "gained_flags": 1,
+        "parent_minus_child_rate": 0.48418491484184917,
+        "paired_drop_interval95": [
+          0.41505262224262257,
+          0.5429744575916005
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.1836734693877551,
+          0.1836734693877551
+        ],
+        "cohort": "self",
+        "detector": "fastdetectgpt",
+        "eligible_n": 411,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          0.39506973439258536,
+          0.5582520240960713
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      },
+      {
+        "n_pairs": 411,
+        "parent_flagged": 24,
+        "child_flagged": 14,
+        "retained_flags": 11,
+        "retention_denominator": 24,
+        "retention_wilson95": [
+          0.2789133373121099,
+          0.6492513464108051
+        ],
+        "lost_flags": 13,
+        "gained_flags": 3,
+        "parent_minus_child_rate": 0.024330900243309004,
+        "paired_drop_interval95": [
+          -0.008107262889299144,
+          0.055729995291404245
+        ],
+        "interval_family_size": 1,
+        "retention_unknown_children": 0,
+        "retention_missingness_bounds": [
+          0.4583333333333333,
+          0.4583333333333333
+        ],
+        "cohort": "self",
+        "detector": "radar",
+        "eligible_n": 411,
+        "missing_paired_scores": 0,
+        "simultaneous_six95": [
+          -0.016855964171010724,
+          0.0642803963433994
+        ],
+        "paired_drop_basis": "Eligible pairs with both scores available. Missing score counts remain explicit. Retention includes every eligible pair with a known flagged parent, and unknown children are counted as unknown rather than confirmed negatives."
+      }
+    ]
+  }
+}

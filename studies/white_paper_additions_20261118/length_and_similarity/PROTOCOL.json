@@ -1,0 +1,84 @@
+{
+  "version": "topic12-additions-1",
+  "frozen_utc": "2026-11-18T19:26:59.857866+00:00",
+  "seed": 20261118012,
+  "study_type": "Retrospective sensitivity analyses of reused historical detector scores. Aggregate historical outcomes were already known. This is not an independent confirmatory replication.",
+  "source_run": "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12",
+  "input_sha256": {
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/records.jsonl": "d467f1be34bbfe26b0f1a49b98918b030ba75bb31a1c74696d4f306c79ce4b10",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/scores.jsonl": "612ea029be4725287e26208c2be5e729f564101c8d72889b30446d612a051a2b",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/fullplanned_manifest.jsonl": "12c30d146dd508f73f09444864adfba63d86cbb0ce2c3eddb621df535f2bac71",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/protocol.json": "c1a4c0afc856e05a3a98ac5605573c3f88c6128f5db4f8f9d44a5d29c434435f",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/SCORING_LOCK.json": "b581520d176edba282f8cbfe50a27a97910d59c83b2ca06674fbf1bbb830778a",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/SCORES_COMPLETE.json": "50b10d8067af9b894891fce4491fa632e44eb3b38848d13eac56fd5edbdb11ce",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/RADAR_CALIBRATION.json": "ccd42fd8dd38c15fe7f0b6d0f5b654c9bb957b49de4fbc1af7e6ddfcfe196874",
+    "PROJECT_ROOT/outputs/pilot_extensions/runs/20261118T030136Z_full/topic12/ANALYSIS_PLAN.json": "10f0dc8c3b3d53b3226916252c1abd68b678d6ea4f77608f0345fab7200d0ed3",
+    "PROJECT_ROOT/outputs/github_repos/rewrite-detector-transport/data/thresholds.json": "1612c279ca422c81a88fe5b5b404a635db585110312a6b7813e3598ff44af43e",
+    "PROJECT_ROOT/outputs/white_paper_additions/DECISIONS.json": "d260c76768f8f6e6ea00e0cf920210f22d19f39e26b128ef8fefbcaeab86fc51",
+    "PROJECT_ROOT/outputs/white_paper_additions/INPUT_PROVENANCE.json": "be773e0cc84bd2f4b43fbda9864b901d626d4f218ad2947df0d86f338935bbf3"
+  },
+  "code_sha256": "1d32ef8403e14449768be64c0556839fa44bd14067e93ba89da5945a28384419",
+  "A": {
+    "length_words": [
+      100,
+      128
+    ],
+    "unit": "whitespace separated words",
+    "completion": "Generated parent and child must both be completed, done true, and not truncated. Public human controls use their observed public human status.",
+    "detectors": [
+      "binoculars",
+      "fastdetectgpt",
+      "radar"
+    ],
+    "thresholds": "Original locked thresholds, no recalibration",
+    "table": "Four rows with descriptive Wilson intervals conditional on length and valid completion. Missing scores remain explicit unknowns in the denominator.",
+    "paired": "Each rewrite is paired to its own direct Gemma parent. Retention denominator is eligible scored pairs whose parent was flagged. Drop is parent minus child rate on the same eligible paired panel.",
+    "drop_interval": "Difference of two Clopper Pearson discordance intervals with union bound. Six contrast simultaneous intervals also reported. No new confirmatory claims."
+  },
+  "B": {
+    "model": "bge-m3:latest",
+    "backend": "Ollama /api/embed local only",
+    "cosine_primary": 0.9,
+    "cosine_sensitivity": [
+      0.85,
+      0.95
+    ],
+    "similarity_label": "Unvalidated embedding proxy for fidelity to the parent, not human validated semantic preservation or factual correctness",
+    "text": "Whole eligible text, at most 128 words. No detector outcomes used for embedding selection or threshold selection.",
+    "eligibility": "A eligibility plus available embedding similarity at or above the fixed threshold for each rewrite pair. Human and direct reference rows remain A reference rows, with paired comparisons restricted separately to each selected rewrite arm.",
+    "missing": "Embedding errors remain in the attempted ledger and all planned accounting. Conditional proxy rates are not all planned success rates.",
+    "batch_size": 8,
+    "timeout_seconds": 120,
+    "max_retries": 0,
+    "development_profile": "Two batches of eight synthetic paragraphs, lengths 100 and 128 words. No evaluation text or detector outcomes used. First batch includes model startup.",
+    "embedding_wall_budget_seconds": 14400,
+    "human_unique_pairs": 80,
+    "human_cross_pairs": 40,
+    "human_self_pairs": 40,
+    "human_distinct_qids": 80,
+    "human_shared_pairs": 20,
+    "ratings_per_rater": 50,
+    "primary_per_rater": 40,
+    "secondary_per_rater": 10,
+    "sampling": "Source stratified seeded sampling of length and completion eligible pairs, independent of similarity and detector outcomes. At most one selected pair per qid across arms. Primary rater assignments frozen before ratings.",
+    "rating_scale": {
+      "0": "Material meaning changed",
+      "1": "Uncertain or partly preserved",
+      "2": "All material meaning preserved"
+    },
+    "preserved": "Rating 2 only on preassigned primary ratings. No adjudication or cherry picking.",
+    "agreement": "Exact agreement, Wilson interval, and unweighted Cohen kappa on 20 double coded pairs. Seeded percentile bootstrap for kappa is descriptive; undefined kappa reported as unavailable.",
+    "human_status": "No human observations exist until two actual completed files are imported. This small retrospective sample does not unlock the historical 900 pair confirmatory endpoint."
+  },
+  "known_limits": [
+    "Sources and questions are reused; question separation does not prove author independence.",
+    "Three fixed detector implementations do not establish a universal impossibility result.",
+    "The similarity cutoffs are frozen assumptions without independent fidelity calibration."
+  ],
+  "host": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "logical_cpus": 18
+  }
+}
