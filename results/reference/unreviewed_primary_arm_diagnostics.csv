@@ -1,0 +1,5 @@
+detector,rewriter,n_planned,parent_flagged_to_rewrite_unflagged,with_mechanical_length_contract_only,quality_status
+binoculars,qwen3.5:4b,450,238,196,Not meaning-qualified; not the primary J endpoint.
+binoculars,gemma4:12b,450,212,210,Not meaning-qualified; not the primary J endpoint.
+fastdetectgpt,qwen3.5:4b,450,238,198,Not meaning-qualified; not the primary J endpoint.
+fastdetectgpt,gemma4:12b,450,214,212,Not meaning-qualified; not the primary J endpoint.

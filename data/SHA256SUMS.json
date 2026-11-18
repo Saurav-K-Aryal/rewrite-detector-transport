@@ -1,0 +1,12 @@
+{
+  "data/radar_calibration_scores.json": "caa68059d1f7b9f0379fba34be9d0527151b4f2be84d31c6ce15a2a396fb7fe4",
+  "data/records.jsonl.gz": "360c8157d96a1d71afd42532de3e0af3dd6b63938075f50b8ab286a0d735ec8f",
+  "data/scores.jsonl.gz": "a3a838c529a6eb1585f9d7bfccb1263f4a8c75165b65621b277b8632ac1af30b",
+  "data/thresholds.json": "1612c279ca422c81a88fe5b5b404a635db585110312a6b7813e3598ff44af43e",
+  "provenance/environment.json": "9f78200b7883a05e06d8d76191faad844c88b03c2e5edd35bc819b3c836fc2ce",
+  "provenance/extracted_functions.json": "e68a744fafd09904adabdeb7bc24fcb6065d6dd5d432ed402f86ea70cf528d71",
+  "provenance/generation_models.json": "aae72ae0ce87c4109ca34308c32b584c0af28e20d8f96896e74ed29455f2e937",
+  "provenance/original_source_hashes.json": "19d5e2b70792ab45cbc66d82b7aa6aa5f410da2c20e615f9cfa295b21e4732b3",
+  "provenance/run.json": "d3668973df8e001a96216f2a193a61f96c9c1a0449c385e5aa0c5481fa8a4a32",
+  "provenance/scoring_models.json": "2aa9833471d7a56e76e93f778a822a9168dfa1e5566a8f500bd4c68c05020ea6"
+}

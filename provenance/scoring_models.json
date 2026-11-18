@@ -1,0 +1,22 @@
+{
+  "published_pair": {
+    "observer": {
+      "repo": "tiiuae/falcon-7b",
+      "revision": "ec89142b67d748a1865ea4451372db8313ada0d8"
+    },
+    "performer": {
+      "repo": "tiiuae/falcon-7b-instruct",
+      "revision": "8782b5c5d8c9290412416618f36a133653e85285"
+    }
+  },
+  "radar": {
+    "repo": "TrustSafeAI/RADAR-Vicuna-7B",
+    "revision": "4ff1f23a69a36aa1df47b0933be6279f1b896c9b",
+    "source_repository": "https://github.com/IBM/RADAR",
+    "source_commit": "3a9acf6d3d9b1766f5c6497af96601dea1ead868",
+    "model_license": "Model card states non-commercial use inherited from Vicuna-7B-v1.1; research use here. Source repository Apache-2.0 is not the model license.",
+    "score_direction": "softmax(logits)[:,0], higher is AI",
+    "max_tokens": 512
+  },
+  "published_reduction": "Pinned official functions; MPS bfloat16 Falcon forward passes, float32 CPU reductions; first128words and max512tokens."
+}

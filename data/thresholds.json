@@ -1,0 +1,30 @@
+{
+  "word_tfidf": {
+    "direction": "greater",
+    "cutoff": 0.5352031133485149
+  },
+  "char_tfidf": {
+    "direction": "greater",
+    "cutoff": 0.447680137729187
+  },
+  "length_style": {
+    "direction": "greater",
+    "cutoff": 0.6828830194451976
+  },
+  "historical_word": {
+    "direction": "greater",
+    "cutoff": 0.5341588511583897
+  },
+  "binoculars": {
+    "direction": "less",
+    "cutoff": 0.8635380864143372
+  },
+  "fastdetectgpt": {
+    "direction": "greater",
+    "cutoff": 1.9734587669372559
+  },
+  "radar": {
+    "direction": "greater",
+    "cutoff": 0.9960119724273682
+  }
+}

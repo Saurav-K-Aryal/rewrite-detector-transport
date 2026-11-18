@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-17",
+  "method": "17 OpenAlex searches including broad, exact-title, novelty-challenge and strong-comparator queries; top 3–20 per query; targeted and not exhaustive",
+  "query_files": [
+    "openalex_01.json",
+    "openalex_00.json",
+    "openalex_strong_1.json",
+    "openalex_11.json",
+    "openalex_07.json",
+    "openalex_06.json",
+    "openalex_10.json",
+    "openalex_strong_0.json",
+    "openalex_hc3.json",
+    "openalex_09.json",
+    "openalex_05.json",
+    "openalex_04.json",
+    "openalex_08.json",
+    "openalex_strong_2.json",
+    "openalex_03.json",
+    "openalex_initial.json",
+    "openalex_02.json"
+  ],
+  "primary_sources": [
+    {
+      "reference": 1,
+      "url": "https://openreview.net/forum?id=00gsAZdF0t",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Total-variation limits and attacks; not universal inability of every detector."
+    },
+    {
+      "reference": 2,
+      "url": "https://arxiv.org/abs/2304.04736",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Possibility results depend on assumptions and sample information."
+    },
+    {
+      "reference": 3,
+      "url": "https://proceedings.mlr.press/v235/zhang24o.html",
+      "level": "Selected full-text sections and abstract",
+      "claim_boundary": "Impossibility under specified oracle and mixing assumptions; published title differs from preprint."
+    },
+    {
+      "reference": 4,
+      "url": "https://arxiv.org/abs/2502.10525",
+      "level": "Selected full-text sections and abstract",
+      "claim_boundary": "Empirical durability of tested schemes and modifications; no universal impossibility."
+    },
+    {
+      "reference": 5,
+      "url": "https://doi.org/10.1016/j.patter.2023.100779",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Specific detectors, corpora and historical models."
+    },
+    {
+      "reference": 6,
+      "url": "https://aclanthology.org/2026.eacl-srw.20/",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Contrasting Czech-language finding; prevents universal bias claims."
+    },
+    {
+      "reference": 7,
+      "url": "https://doi.org/10.1214/23-STS894",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Existing anytime-valid framework; e-process assumptions must be stated."
+    },
+    {
+      "reference": 8,
+      "url": "https://arxiv.org/abs/2410.22318",
+      "level": "Selected full-text sections and abstract",
+      "claim_boundary": "Prior sequential AI detection; cannot claim this general idea as new."
+    },
+    {
+      "reference": 9,
+      "url": "https://arxiv.org/abs/2610.06317",
+      "level": "Selected full-text sections and abstract",
+      "claim_boundary": "Prior calibrated auditable compliance; does not establish our selective-marking joint-identification result."
+    },
+    {
+      "reference": 10,
+      "url": "https://arxiv.org/abs/2410.18861",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Robustness under adversary-knowledge assumptions, which must be distinguished from broad removal attacks."
+    },
+    {
+      "reference": 11,
+      "url": "https://aclanthology.org/2024.naacl-long.226/",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Semantic marking and evaluated paraphrase robustness, not unrestricted robustness."
+    },
+    {
+      "reference": 12,
+      "url": "https://arxiv.org/abs/2402.18085",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Prior real-time audio challenges and empirical results in defined datasets."
+    },
+    {
+      "reference": 13,
+      "url": "https://arxiv.org/abs/2406.15335",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Condition-specific accuracies do not imply compositional or adaptive-relay guarantees."
+    },
+    {
+      "reference": 14,
+      "url": "https://arxiv.org/abs/2301.07597",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Historical HC3 corpus; source licenses vary; no modern-model inference."
+    },
+    {
+      "reference": 15,
+      "url": "https://arxiv.org/abs/2401.12070",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Strong established detector/benchmark comparator; our local TF-IDF diagnostic does not substitute for this."
+    },
+    {
+      "reference": 16,
+      "url": "https://arxiv.org/abs/2310.05130",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Strong established detector/benchmark comparator; our local TF-IDF diagnostic does not substitute for this."
+    },
+    {
+      "reference": 17,
+      "url": "https://aclanthology.org/2024.acl-long.674/",
+      "level": "Primary abstract and bibliographic record",
+      "claim_boundary": "Strong established detector/benchmark comparator; our local TF-IDF diagnostic does not substitute for this."
+    }
+  ],
+  "finding": "Novelty narrowed after direct overlap in sequential detection and 2026 auditable compliance; contrary 2026 language result included. Abstract-only evidence is not used to assert an unexamined theorem or exact numeric benchmark."
+}

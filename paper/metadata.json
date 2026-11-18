@@ -1,0 +1,12 @@
+{
+  "title": "Detector Transport Across Sources and Rewrite Histories: A Seven-Detector Study of Three Open-Weight Models",
+  "body_words_approx": 5030,
+  "abstract_file": "abstract.tex",
+  "figures": [
+    "figures/detector_operating_points.pdf",
+    "figures/rewrite_matrix_all.pdf",
+    "figures/length_compliance.pdf"
+  ],
+  "strongest_claim": "The observed source-transport behavior and full ordered matrix show that specificity, model identity, same-model rewriting and mechanical validity materially change interpretation of fixed detector decisions.",
+  "principal_limit": "Quality-qualified cross-model advantage remains pending independent blinded review."
+}

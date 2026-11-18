@@ -1,0 +1,113 @@
+{
+  "checked_date": "2026-11-18",
+  "scope": "Targeted literature check, not a systematic review or priority certification.",
+  "openalex": {
+    "cached_search_audit": "../docs/literature/openalex_prior_audit.json",
+    "cached_query_count": 17,
+    "new_connector_attempt": "UNAUTHORIZED: app requires reauthentication",
+    "new_direct_attempt": {
+      "url": "https://api.openalex.org/works?search=AI%20text%20detection%20rewriting&per-page=10",
+      "status": "failed",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "fallback": "Primary publisher/arXiv pages used for citation and claim verification."
+  },
+  "references": [
+    {
+      "key": "hans2024",
+      "primary_url": "https://proceedings.mlr.press/v235/hans24a.html",
+      "verification": "Published ICML bibliographic record and abstract; exact authors, pages and method scope verified.",
+      "claim_boundary": "Two-model content score; no universal benchmark transfer claim."
+    },
+    {
+      "key": "bao2024",
+      "primary_url": "https://arxiv.org/abs/2310.05130",
+      "verification": "Primary arXiv record identifies ICLR2024 camera version; author list verified.",
+      "claim_boundary": "Conditional probability discrepancy and published detector comparator."
+    },
+    {
+      "key": "hu2023",
+      "primary_url": "https://arxiv.org/abs/2307.03838",
+      "verification": "Primary record identifies NeurIPS2023 acceptance; three authors verified.",
+      "claim_boundary": "Adversarial detector/paraphraser training; one checkpoint in our study does not exhaust method."
+    },
+    {
+      "key": "dugan2024",
+      "primary_url": "https://aclanthology.org/2024.acl-long.674/",
+      "verification": "ACL published record and exported bibliographic fields.",
+      "claim_boundary": "Robustness benchmark and source material; our study is not the complete RAID benchmark."
+    },
+    {
+      "key": "guo2023",
+      "primary_url": "https://arxiv.org/abs/2301.07597",
+      "verification": "Primary record; all eight authors verified.",
+      "claim_boundary": "Historical HC3 source, not contemporary model evidence."
+    },
+    {
+      "key": "sadasivan2023",
+      "primary_url": "https://arxiv.org/abs/2303.11156",
+      "verification": "Primary record; all five displayed authors verified; initial preprint year2023 and revision4 Jan2025 explicit.",
+      "claim_boundary": "Prior paraphrasing challenge and theoretical limits; no universal impossibility claim used."
+    },
+    {
+      "key": "perrone2026",
+      "primary_url": "https://arxiv.org/html/2607.29539v1",
+      "verification": "Primary abstract and full design sections185-200 inspected; July31 2026 preprint.",
+      "claim_boundary": "Close matched direct/human-rewrite/same-model-rewrite precedent. Full ordered matrix is our evaluated design, not a claimed first."
+    },
+    {
+      "key": "yuan2026",
+      "primary_url": "https://arxiv.org/html/2609.38831v1",
+      "verification": "Primary author/date record and methods/results around223-225 inspected; September30 2026 preprint.",
+      "claim_boundary": "Targeted model attribution and automated faithfulness controls, not binary author detection equivalence."
+    },
+    {
+      "key": "tian2026",
+      "primary_url": "https://arxiv.org/html/2611.18104v1",
+      "verification": "Primary record and abstract; November13 2026 preprint.",
+      "claim_boundary": "Conversational history changes attribution; same-history references already proposed."
+    },
+    {
+      "key": "angelopoulos2021",
+      "primary_url": "https://arxiv.org/abs/2107.07511",
+      "verification": "Primary record; authors and original preprint year verified.",
+      "claim_boundary": "Marginal exchangeability-based calibration, no arbitrary-shift guarantee."
+    },
+    {
+      "key": "clopper1934",
+      "primary_url": "https://doi.org/10.1093/biomet/26.4.404",
+      "verification": "Oxford primary bibliographic record.",
+      "claim_boundary": "Original binomial confidence interval; simultaneous family follows union bound under within-cell assumptions."
+    }
+  ],
+  "data": {
+    "run": "20261118T030136Z_full",
+    "independent_audit": "../results/reference/summary.json",
+    "counts": {
+      "generation_calls": 6750,
+      "texts": 8700,
+      "scores": 60900,
+      "detectors": 7,
+      "sources": 3,
+      "matrix_questions": 450,
+      "separate_human_controls": 1500,
+      "simultaneous_cell_family": 357
+    },
+    "primary_semantic_status": "pending_independent_review_and_adjudication",
+    "new_scores_or_tests_for_manuscript": false,
+    "human_excerpt_scope": "Static human/control and human_reference texts are first128words; human_rewrite prompts use that excerpt, not complete original corpus prose."
+  },
+  "claims_not_made": [
+    "Confirmed quality-preserving evasion",
+    "Universal family transport",
+    "New detector or watermark implementation",
+    "First demonstration that rewriting or history affects detection",
+    "Public availability of a private repository",
+    "New recruited-human authorship observations"
+  ],
+  "files_sha256": {
+    "body.tex": "507db400f782b4aedb799f34ea0a53abf26ec756fbdf0f5eabfd0fddf786a9c7",
+    "abstract.tex": "0d22f3f639ad79c8bfc42841c1bf0b8cb3210f77218b50fbd23f3209a9e20d8c",
+    "references.bib": "bc2efd8c3e7c253f097922c10b63396f60c7dc6665b0b18ccfae2f890c685afd"
+  }
+}

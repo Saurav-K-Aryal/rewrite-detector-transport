@@ -1,0 +1,13 @@
+{
+  "records": 8700,
+  "generated": 6750,
+  "scores": 60900,
+  "detectors": 7,
+  "matrix_questions": 450,
+  "human_controls": 1500,
+  "human_references": 450,
+  "interval_family": 357,
+  "primary_status": "pending_independent_review_and_adjudication",
+  "length_contract_fail": 1483,
+  "length_contract_pass": 5267
+}

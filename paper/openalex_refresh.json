@@ -1,0 +1,5 @@
+{
+  "url": "https://api.openalex.org/works?search=AI%20text%20detection%20rewriting&per-page=10",
+  "status": "failed",
+  "error": "HTTP Error 429: Too Many Requests"
+}

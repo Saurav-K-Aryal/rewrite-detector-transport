@@ -1,0 +1,25 @@
+{
+  "run_id": "20261118T030136Z_full",
+  "execution_complete": true,
+  "primary_status": "pending_independent_review_and_adjudication",
+  "full_text_excluded": true,
+  "records_sha256_original": "d467f1be34bbfe26b0f1a49b98918b030ba75bb31a1c74696d4f306c79ce4b10",
+  "scores_sha256_original": "612ea029be4725287e26208c2be5e729f564101c8d72889b30446d612a051a2b",
+  "protocol_sha256_original": "c1a4c0afc856e05a3a98ac5605573c3f88c6128f5db4f8f9d44a5d29c434435f",
+  "source_dataset": {
+    "url": "https://dataset.raid-bench.xyz/train_none.csv",
+    "sha256": "c5467bca6fc7f5c728c676450c7f84ce401df6c6ccc6d82c47e3b5f3c6d6fce4",
+    "bytes": 801662741,
+    "companion_hf_revision": "865cac74188466cb0c3b7574a10204007b57a459",
+    "pin_scope": "Official train_none.csv is pinned by its complete bytes, not represented as a file at the companion HF revision.",
+    "license": "RAID dataset card: MIT. Retain original source rights and attribution; do not include raw text in the code-only archive.",
+    "license_source": "https://huggingface.co/datasets/liamdugan/raid/blob/865cac74188466cb0c3b7574a10204007b57a459/README.md",
+    "official_repository": "https://github.com/liamdugan/raid"
+  },
+  "original_thresholds_frozen": true,
+  "human_calibration_n": 500,
+  "calibration_rank": 476,
+  "frozen_primary_margin": 0.1,
+  "frozen_primary_direction": "Gemma-to-Qwen minus Gemma-to-Gemma joint parent-detected/rewrite-undetected/meaning-preserving/valid-completion success",
+  "pending_reason": "No independent blinded semantic labels or adjudication were supplied."
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "function": "exact_interval",
+    "original_file": "outputs/final_analysis/topic12_final.py",
+    "original_file_sha256": "a022266df5f18a28dd912c561c3634d8d8b7400d44e2c031b209f8896f891d83",
+    "first_line": 50,
+    "function_source_sha256": "7ec9b4f688f1a5d0c7baa5afc5ce3fa753a28f33ebc6eba3c106ea8e3913c94a"
+  },
+  {
+    "function": "paired_summary",
+    "original_file": "outputs/final_analysis/topic12_final.py",
+    "original_file_sha256": "a022266df5f18a28dd912c561c3634d8d8b7400d44e2c031b209f8896f891d83",
+    "first_line": 57,
+    "function_source_sha256": "0549d62b61e5016e58b901bce2a464b94aee3e17095896a74a41c30f6eb484f9"
+  }
+]

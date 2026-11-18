@@ -1,0 +1,8 @@
+detector,human_false_positives,human_n,human_fpr,direct_flagged,direct_n,direct_detection_rate,interpretation
+word_tfidf,24,1500,0.016,120,1350,0.08888888888888889,Descriptive equal-source/equal-model totals; repeated model outputs share question blocks.
+char_tfidf,1465,1500,0.9766666666666667,1347,1350,0.9977777777777778,Descriptive equal-source/equal-model totals; repeated model outputs share question blocks.
+length_style,994,1500,0.6626666666666666,1342,1350,0.9940740740740741,Descriptive equal-source/equal-model totals; repeated model outputs share question blocks.
+historical_word,308,1500,0.20533333333333334,635,1350,0.4703703703703704,Descriptive equal-source/equal-model totals; repeated model outputs share question blocks.
+binoculars,42,1500,0.028,738,1350,0.5466666666666666,Descriptive equal-source/equal-model totals; repeated model outputs share question blocks.
+fastdetectgpt,37,1500,0.024666666666666667,767,1350,0.5681481481481482,Descriptive equal-source/equal-model totals; repeated model outputs share question blocks.
+radar,0,1500,0.0,63,1350,0.04666666666666667,Descriptive equal-source/equal-model totals; repeated model outputs share question blocks.
